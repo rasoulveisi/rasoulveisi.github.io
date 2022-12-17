@@ -47,7 +47,7 @@ Good at problem solving, and working with team.
 
 # Languages
 
-### English 🇺🇸 ●●●●○
+### English ●●●●○
 
 ---
 
