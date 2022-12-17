@@ -57,7 +57,7 @@ Good at problem solving, and working with team.
 
 _2019 (Razi University, Kermanshah)_
 
-### Master**'s Degree in Mechanical Engineering - Mechatronics**
+### **Master's Degree in Mechanical Engineering - Mechatronics**
 
 _2022 (Isfahan University Technology, Isfahan)_
 
