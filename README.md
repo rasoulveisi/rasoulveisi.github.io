@@ -47,9 +47,7 @@ Good at problem solving, and working with team.
 
 # Languages
 
-### English 🇺🇸
-
-Proficient speaker
+### English 🇺🇸 ●●●●○
 
 ---
 
