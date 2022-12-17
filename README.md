@@ -41,7 +41,7 @@ Danfoss, _Denmark, Aalborg– (2019- 2022)_
 
 React-Router, Redux, Hooks, Working with API’s.
 
-Good at problem solving, and working with team.
+Good at problem solving, and working with teams.
 
 ---
 
