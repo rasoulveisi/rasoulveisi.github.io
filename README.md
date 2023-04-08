@@ -1,7 +1,7 @@
 # Hi, my name is Rasoul Veisi
 
 <aside>
-👋 I'm a junior front-end developer in Tehran. I have studied mechanical engineering (mechatronic) at the Isfahan University of Technology. My focus area for the past few years has been Robotics, but I’m also skilled in front-end development with React because of an old interest.
+👋 I'm a junior front-end developer in Tehran. I have studied mechanical engineering (mechatronic) at the Isfahan University of Technology. My focus area for the past few years has been Robotics, but I’m also skilled in front-end development with Angular & React because of an old interest.
 
 </aside>
 
