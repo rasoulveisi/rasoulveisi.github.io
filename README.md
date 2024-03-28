@@ -1,9 +1,8 @@
 # Resume
 
-<aside>
-👋 Highly motivated and adaptable **Front-End Developer** with 2+ years of professional experience building and maintaining responsive web applications. Skilled in **Angular**, **React**, **Next.js**, **Ionic**, **Tailwind CSS**, and modern JavaScript frameworks. Eager to leverage my skills in a fast-paced tech environment and contribute to a team focused on innovation.
 
-</aside>
+Highly motivated and adaptable **Front-End Developer** with 2+ years of professional experience building and maintaining responsive web applications. Skilled in **Angular**, **React**, **Next.js**, **Ionic**, **Tailwind CSS**, and modern JavaScript frameworks. Eager to leverage my skills in a fast-paced tech environment and contribute to a team focused on innovation.
+
 
 ### **Contact**
 
