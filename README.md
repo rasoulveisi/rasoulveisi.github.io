@@ -10,7 +10,7 @@ Highly motivated and adaptable **Front-End Developer** with 2+ years of professi
 
 [🔗 linkedin.com/in/rasoulveisi](https://www.linkedin.com/in/rasoulveisi/)
 
-[👾 rasoulveisi.github.io](http://rasoulveisi.github.io)
+[👾 github.com/rasoulveisi](https://github.com/rasoulveisi)
 
 # ⌨️ Experience
 
