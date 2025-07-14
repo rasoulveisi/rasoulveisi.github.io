@@ -1,77 +1,95 @@
 # Resume
 
-
-Highly motivated and adaptable **Front-End Developer** with 2+ years of professional experience building and maintaining responsive web applications. Skilled in **Angular**, **React**, **Next.js**, **Ionic**, **Tailwind CSS**, and modern JavaScript frameworks. Eager to leverage my skills in a fast-paced tech environment and contribute to a team focused on innovation.
-
+Experienced **Angular front-end developer** with a proven track record in building responsive and user-friendly web applications. Skilled in **Angular**, **HTML**, **CSS**, **JavaScript**, **Ionic**, and **REST API** development. Passionate about creating efficient and scalable solutions while contributing to team success.
 
 ### **Contact**
 
-[📧](mailto:adalovelace@mail.com) [rasoulweysi@gmail.com](mailto:rasoulweysi@gmail.com)
+📞 +98-9108259755
+✉️ [rasoulweysi@gmail.com](mailto:rasoulweysi@gmail.com)
+📍 Iran, Tehran
 
-[🔗 linkedin.com/in/rasoulveisi](https://www.linkedin.com/in/rasoulveisi/)
+[🔗 GitHub](https://github.com/rasoulveisi)
+[🔗 LinkedIn](http://linkedin.com/in/rasoulveisi)
+[🔗 Portfolio](https://rasoulveisi.github.com)
 
-[👾 github.com/rasoulveisi](https://github.com/rasoulveisi)
+## About Me
 
-# ⌨️ Experience
+Experienced Angular front-end developer with a proven track record in building responsive and user-friendly web applications. Skilled in Angular, HTML, CSS, JavaScript, Ionic, and REST API development. Passionate about creating efficient and scalable solutions while contributing to team success.
 
-### **Frontend Web Developer**
-
-*BlueBitSoft, Tehran, Iran – (Sep 2022 - Present)*
-
-- **Developed a pharmacy inventory management system** using Angular and RESTful APIs, featuring QR code scanning and tracking for efficient medication
-- **Wrote unit tests** to ensure code quality and maintainability.
-- **Built a mobile application** with Angular for real-time medication package tracking and integrated REST APIs for seamless delivery status updates.
+# ⌨️ Work Experience
 
 ### **Frontend Web Developer**
 
-*Khane Ketab Iran (Iran Book House), Remote – (2023 Freelance)*
+*BlueBitSoft – (Sep 2022 - Present)*
 
-- **Developed a e-commerce platform** with Ionic and Angular, along with an admin dashboard for vendor inventory and order management.
-- **Created a Progressive Web App (PWA)** for a customer-facing e-commerce platform with product browsing and cart functionality.
-- **Built an admin dashboard** for vendors to manage their inventory and orders.
+BlueBitSoft is a software company specializing in end-to-end solutions for the healthcare and pharmacy sectors.
 
-### **Wordpress Developer**
+- Built a pharmacy inventory system with Angular and REST APIs, featuring QR code scanning and tracking
+- Enhanced UX/UI, boosting user retention by 20%
+- Optimized performance, cutting load times by 25%
+- Ensured reliability with unit tests, achieving 90%+ coverage
 
-*Kord-Music, Kermanshah, Iran – (2012 - 2019)*
+### **PWA and Responsive E-Commerce Platform Developer**
 
-- Developed and maintained a WordPress-based blog and multimedia website, providing technical support and ensuring optimal user experience.
+*Ketab.ir – (Dec 2022 - Sep 2022)*
 
----
-
-# 🎓 Education
-
-### **M.Sc. Mechanical Engineering - Mechatronics**
-
-*2019 (***Isfahan University of Technology***)*
-
-**Thesis**: Model identification and predictive control of evaporator of refrigeration system (using machine learning)
-
-### **B.Sc. Biosystems Mechanical Engineering**
-
-*2015-2019 (***Razi University Kermanshah***)*
+- Designed and implemented a Progressive Web App (PWA) for an e-commerce platform, providing offline functionality and enhanced cross-platform compatibility
+- Built an admin dashboard with Angular and Ionic, enabling vendors to manage inventory, process orders, and track sales data
 
 ---
 
-# 🛠️ Skills
+# 🎓 Education
 
-### **FRONTEND**
+### **M.Sc. of Mechanical Engineering - Mechatronics**
 
-Angular (Expert), React, Next.js, Ionic, Tailwind CSS, Bootstrap, HTML5, CSS3, JavaScript, Typescript.
+*2022 (**Isfahan University of Technology, Isfahan**)*
 
-### **Test**
+**Thesis**: Predictive control and model identification of an evaporator in refrigeration systems using AI and machine learning for dynamic systems.
 
-Jasmin, Robot Framework.
+### **B.Sc. of Biosystems Mechanical Engineering**
 
-### **Miscellaneous**
-
-Machine Learning (Python), RxJS, PWA Development, Docker.
+*2019 (**Razi University, Kermanshah**)*
 
 ---
 
-# 📖 **COURSE**
+# 🛠️ Skills
 
-- Machine Learning
-- Neural Network
-- Advanced Mathematics
-- Linear Algebra
-- Robotic: Mechanical Engineer
+### **Technical Proficiencies**
+
+**Programming Languages**: JavaScript, TypeScript, Python, MATLAB, HTML, CSS
+
+**Frontend Frameworks**: Angular (Expert), Ionic, React.js, Next.js
+
+**Styling Frameworks & Tools**: Tailwind CSS, Bootstrap, PrimeNG, Sass
+
+**Development Tools**: REST APIs, RxJS, Jasmine, Karma, Git, Docker, CI/CD, PWA, Redux
+
+**Design Tools**: Adobe Photoshop, Adobe Illustrator
+
+### **Languages**
+
+- **English**: Professional Proficiency
+
+---
+
+# 📂 **Projects**
+
+### **Angular-Infinite-Scroll Directive**
+Angular directive for infinite scrolling functionality
+- [GitHub](https://github.com/rasoulveisi/Angular-Infinite-Scroll)
+- [Live Demo](https://angular-infinite-scroll-rasoulveisi.vercel.app/)
+
+### **React TodoList**
+Task management application built with React
+- [GitHub](https://github.com/rasoulveisi/React-TodoList)
+- [Live Demo](https://react-todolist-rasoulveisi.vercel.app/)
+
+### **React Cart Context**
+Shopping cart implementation using React Context API
+- [GitHub](https://github.com/rasoulveisi/React-Cart-Context)
+- [Live Demo](https://react-cart-context-rasoulveisi.vercel.app/)
+
+### **Redux Cart**
+Shopping cart application built with Redux state management
+- [GitHub](https://github.com/rasoulveisi/Redux-Cart)
+- [Live Demo](https://redux-cart-rasoulveisi.vercel.app/)
