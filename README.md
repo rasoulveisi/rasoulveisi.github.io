@@ -16,7 +16,7 @@
 
 ---
 
-## Professional Summary
+## About Me
 
 Results-driven Frontend Engineer with expertise in developing high-performance web applications using Angular and modern JavaScript frameworks. Demonstrated success in improving user engagement by 20% and application performance by 25% through strategic UX/UI enhancements and code optimization. Passionate about delivering scalable solutions and maintaining high code quality standards.
 
@@ -40,7 +40,7 @@ Results-driven Frontend Engineer with expertise in developing high-performance w
 
 ---
 
-### **PWA & E-Commerce Platform Developer**
+### **PWA & E-Commerce Platform Developer (Part-time)**
 **Ketab.ir** | *December 2022 - September 2022*
 
 *Digital Publishing and E-commerce Platform*
