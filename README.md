@@ -46,7 +46,7 @@ Results-driven Angular Frontend Engineer with **3+ years of experience** deliver
 
 ### **Specialized Expertise**
 - **Healthcare Systems:** HIPAA Compliance, Medical Data Management, OT Evaluations
-- **AI/ML:** AI Chat Integration, PyTorch, Deep Learning, OpenAI API, GPT Integration
+- **AI Integration:** OpenAI API, GPT Integration, AI-powered User Interfaces
 - **Performance:** Angular Optimization, Lazy Loading, Code Splitting
 - **Design Tools:** Adobe Photoshop, Adobe Illustrator
 - **Languages:** English (Professional), Persian (Native)
