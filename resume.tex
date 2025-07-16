@@ -6,6 +6,8 @@
 \usepackage{hyperref}
 \usepackage{fontspec}
 \usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
 \setmainfont{Roboto}
 \geometry{top=1.2cm,bottom=1.2cm,left=1.2cm,right=1.2cm}
 \pagestyle{empty}
@@ -30,7 +32,8 @@
 
 \begin{document}
 
-% Header
+% Header with Profile Picture
+\begin{minipage}[t]{0.7\textwidth}
 \begin{center}
     {\huge\bfseries\color{headercolor} RASOUL VEISI} \\
     \vspace{1pt}
@@ -39,6 +42,20 @@
     \href{mailto:rasoulweysi@gmail.com}{rasoulweysi@gmail.com} $\bullet$ +98-9108259755 $\bullet$ Tehran, Iran \\
     \href{https://rasoulveisi.github.io}{rasoulveisi.github.io} $\bullet$ \href{http://linkedin.com/in/rasoulveisi}{linkedin.com/in/rasoulveisi} $\bullet$ \href{https://github.com/rasoulveisi}{github.com/rasoulveisi}
 \end{center}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+\begin{center}
+    % Profile picture - replace 'profile.jpg' with your actual photo file
+    \ifx\undefined\profilepicture
+        \fbox{\parbox{3cm}{\centering\vspace{1cm}Profile\\Picture\\Here\vspace{1cm}}}
+    \else
+        \includegraphics[width=3cm,height=3cm,keepaspectratio,clip]{profile.jpg}
+    \fi
+\end{center}
+\end{minipage}
+
+\vspace{6pt}
 
 % About Me
 \sectionheader{About Me}
