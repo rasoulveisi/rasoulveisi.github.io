@@ -8,27 +8,46 @@
 
 ## 🧑‍💻 About Me
 
-Results-driven Frontend Engineer with **3+ years of experience** delivering high-performance web applications in healthcare and e-commerce domains. Specialized in Angular and modern frontend technologies with expertise in performance optimization, test-driven development, and scalable architecture design. Proven track record of significantly improving user engagement and application performance through strategic UX/UI enhancements and code optimization.
+Results-driven Angular Frontend Engineer with **3+ years of experience** delivering high-performance web applications in healthcare and e-commerce domains. Specialized in Angular ecosystem and modern frontend technologies with expertise in RxJS, performance optimization, test-driven development, and scalable architecture design. Proven track record of **significantly improving user engagement and application performance** through strategic UX/UI enhancements and Angular best practices.
+
+---
+
+## 🏆 Notable Achievements
+
+- **🅰️ Angular Expert:** Deep expertise in Angular framework, RxJS reactive programming, and Angular ecosystem tools
+- **🏥 Healthcare Domain Expert:** Built HIPAA-compliant OT evaluation systems and pharmacy inventory management platforms with Angular  
+- **⚡ Performance Optimization:** Achieved substantial performance improvements through Angular optimizations, virtual scrolling, and advanced caching strategies
+- **🧪 Testing Champion:** Comprehensive test coverage using Angular's Jasmine/Karma testing framework and Cypress for e2e testing
+- **📊 Enterprise Solutions:** Delivered scalable Angular applications serving healthcare providers and e-commerce platforms
+- **🎯 Modern Angular Development:** Expertise in Angular 19, standalone components, and latest Angular features
 
 ---
 
 ## 🛠 Technical Skills
 
-### **Core Frontend Technologies**
-- **Frameworks:** Angular (Expert), React.js, Next.js, Ionic
-- **Languages:** JavaScript (ES6+), TypeScript, Python, MATLAB
-- **Styling:** HTML5, CSS3, Sass/SCSS, Tailwind CSS, Bootstrap
+### **Angular Ecosystem (Primary Expertise)**
+- **Framework:** Angular (Expert - 3+ years), Angular Material, PrimeNG
+- **Reactive Programming:** RxJS, Observables, Operators, State Management Patterns
+- **Testing:** Jasmine, Karma, Angular Testing Utilities, Component Testing
+- **Architecture:** Standalone Components, Module Federation, Lazy Loading
+- **Performance:** OnPush Change Detection, Virtual Scrolling, Bundle Optimization
 
-### **Advanced Development**
-- **State Management:** RxJS, NgRx, Redux, React Context API
-- **Testing:** Jasmine, Karma, Cypress, Robot Framework (Selenium)
-- **Performance:** Lazy Loading, Code Splitting, Bundle Optimization, Virtual Scrolling
-- **PWA Development:** Service Workers, Offline Functionality, Push Notifications
+### **Frontend Technologies**
+- **Languages:** TypeScript (Expert), JavaScript (ES6+), HTML5, CSS3, Sass/SCSS
+- **Styling:** Tailwind CSS, Bootstrap, Angular Material Design System
+- **Other Frameworks:** React.js (19), Next.js, Ionic (Angular-based)
+- **PWA Development:** Angular Service Workers, Offline Functionality, Push Notifications
 
-### **Tools & Integration**
-- **Development Tools:** Git, Docker, Webpack, Vite, CI/CD
-- **API Integration:** RESTful APIs, WebSocket, HTTP Client
-- **UI Libraries:** Angular Material, PrimeNG, Bootstrap
+### **Development & Testing**
+- **State Management:** RxJS Patterns, Redux, Zustand, Angular Services
+- **Testing:** Cypress, Robot Framework (Selenium), Unit Testing, E2E Testing
+- **Tools:** Angular CLI, Vite, Git, Docker, Webpack, CI/CD
+- **API Integration:** Angular HTTP Client, RESTful APIs, WebSocket, Real-time Data
+
+### **Specialized Expertise**
+- **Healthcare Systems:** HIPAA Compliance, Medical Data Management, OT Evaluations
+- **AI/ML:** AI Chat Integration, PyTorch, Deep Learning, OpenAI API, GPT Integration
+- **Performance:** Angular Optimization, Lazy Loading, Code Splitting
 - **Design Tools:** Adobe Photoshop, Adobe Illustrator
 - **Languages:** English (Professional), Persian (Native)
 
@@ -41,11 +60,11 @@ Results-driven Frontend Engineer with **3+ years of experience** delivering high
 
 **Key Achievements:**
 - **Developed comprehensive pharmacy inventory management system** using Angular and RESTful APIs with integrated QR code scanning for real-time medication tracking
-- **Enhanced application performance** through code refactoring and architecture optimization, significantly reducing load times and improving user experience
-- **Improved user interface and user experience design**, resulting in measurably higher user engagement and retention
-- **Implemented robust testing framework** with Jasmine and Karma, maintaining comprehensive code coverage across all modules
-- **Collaborated with cross-functional teams** to deliver healthcare solutions meeting regulatory compliance standards
-- **Refactored legacy codebase** and implemented modular architecture for better maintainability
+- **Enhanced application performance** through Angular optimization techniques and architecture improvements, significantly reducing load times and improving user experience
+- **Improved user interface and user experience design** using Angular Material and custom components, resulting in measurably higher user engagement and retention
+- **Implemented robust testing framework** with Jasmine and Karma, maintaining comprehensive code coverage across all Angular modules
+- **Collaborated with cross-functional teams** to deliver HIPAA-compliant healthcare solutions using Angular best practices
+- **Refactored legacy Angular codebase** and implemented modular architecture with standalone components for better maintainability
 
 **Tech Stack:** Angular, TypeScript, RxJS, REST APIs, Jasmine, Karma, HTML5, CSS3
 
@@ -55,41 +74,87 @@ Results-driven Frontend Engineer with **3+ years of experience** delivering high
 *Digital Publishing Platform* | 📍 Remote | 🗓️ December 2021 – September 2022
 
 **Key Achievements:**
-- **Architected and developed Progressive Web Application** for e-commerce platform with offline functionality and cross-platform compatibility
+- **Architected and developed Progressive Web Application** using Angular and Ionic with offline functionality and cross-platform compatibility
 - **Built comprehensive vendor dashboard** using Angular and Ionic for inventory management, order processing, and sales analytics
-- **Implemented advanced PWA features** including service workers, push notifications, and background synchronization
-- **Delivered responsive design** ensuring optimal user experience across all device types
-- **Reduced vendor support requests** by enabling self-service management tools
+- **Implemented advanced PWA features** with Angular Service Workers, push notifications, and background synchronization
+- **Delivered responsive design** using Angular Flex Layout ensuring optimal user experience across all device types
+- **Reduced vendor support requests** by enabling self-service management tools with Angular reactive forms
 
 **Tech Stack:** Angular, Ionic, TypeScript, PWA, Service Workers, HTML5, CSS3
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### **[Angular Infinite Scroll Directive](https://github.com/rasoulveisi/Angular-Infinite-Scroll)**
-*Performance-optimized infinite scrolling solution*
-- Developed reusable Angular directive for handling large datasets efficiently
-- Implemented virtual scrolling techniques for optimal performance
-- **[🔴 Live Demo](https://angular-infinite-scroll-rasoulveisi.vercel.app/)**
+### **[🏥 Healthcare OT Evaluation System](https://github.com/rasoulveisi/HealthcareOT-EvaluationSystem)**
+*Comprehensive Angular application for occupational therapy evaluations*
+- Dynamic form generation system using Angular Reactive Forms for complex healthcare assessments
+- HIPAA-compliant data management with secure patient information handling using Angular services
+- Advanced assessment workflow with progress tracking and reporting capabilities
+- Built with Angular 19, TypeScript, RxJS, and Tailwind CSS for modern healthcare providers
 
-### **[React Task Management Application](https://github.com/rasoulveisi/React-TodoList)**
-*Modern task management solution with advanced features*
-- Created responsive task management interface with local storage integration
-- Implemented advanced filtering, sorting, and search capabilities
-- **[🔴 Live Demo](https://react-todolist-rasoulveisi.vercel.app/)**
+### **[📅 PrimeNG DateRange Picker](https://github.com/rasoulveisi/PrimeNG-DateRangePicker)**
+*Professional Angular 19 date picker component*
+- Enterprise-grade date selection with PrimeNG Calendar component integration
+- Tailwind CSS styling with responsive design and Angular accessibility features
+- Advanced validation using Angular form validators and localization support
+- Optimized for healthcare and business applications requiring precise date management
 
-### **[React Context API Shopping Cart](https://github.com/rasoulveisi/React-Cart-Context)**
-*Scalable e-commerce cart implementation*
-- Developed shopping cart solution using React Context API
-- Implemented persistent cart state management and session handling
-- **[🔴 Live Demo](https://react-cart-context-rasoulveisi.vercel.app/)**
+### **[⚡ Angular Infinite Scroll Directive](https://github.com/rasoulveisi/Angular-InfiniteScroll-Directive)**
+*Performance-optimized infinite scrolling solution for Angular*
+- Custom Angular directive with virtual scrolling techniques for large datasets
+- Efficient handling using Angular CDK Virtual Scrolling with minimal memory footprint
+- Smooth scrolling experience with Angular zone optimization and error handling
+- Reusable Angular component for enterprise applications with high data volumes
 
-### **[Redux State Management Shopping Cart](https://github.com/rasoulveisi/Redux-Cart)**
-*Enterprise-level cart with advanced state management*
-- Built complex state management system using Redux
-- Implemented middleware for async operations and side effects handling
-- **[🔴 Live Demo](https://redux-cart-rasoulveisi.vercel.app/)**
+### **[📊 Rick & Morty DataTable](https://github.com/rasoulveisi/RickMorty-DataTable)**
+*Advanced Angular data table with PrimeNG integration*
+- Sophisticated data filtering and sorting using PrimeNG Table with real-time API consumption
+- Performance-optimized virtual scrolling using Angular CDK for large datasets
+- Advanced search capabilities with Angular reactive forms and multiple filter criteria
+- Responsive design with Angular Flex Layout and intuitive user experience
+
+### **[📝 Angular DateMask Library](https://github.com/rasoulveisi/Angular-DateMask-Library)**
+*Professional input masking directive for Angular applications*
+- Intelligent date input formatting with Angular directive and real-time validation
+- Supports multiple date formats with Angular i18n internationalization
+- Seamless integration with Angular reactive forms and form validation
+- Lightweight Angular library for enhanced user input experience
+
+### **[🏥 Healthcare Provider Landing Page](https://github.com/rasoulveisi/HealthcareProvider-LandingPage)**
+*Modern Angular landing page for medical professionals*
+- Responsive design using Angular and Tailwind CSS optimized for healthcare providers
+- Professional presentation with Angular components and service showcases
+- SEO-optimized structure with Angular Universal and modern web standards
+- Built with Angular best practices for optimal user experience
+
+### **[🤖 MetisAI Chat Interface](https://github.com/rasoulveisi/MetisAI-ChatInterface)**
+*Enterprise-grade AI chat application with React 19 and OpenAI integration*
+- Built with cutting-edge React 19, Zustand state management, and Tailwind CSS
+- Integrated OpenAI GPT API with advanced conversation management and context handling
+- Features real-time messaging, conversation persistence, and intelligent response handling
+- Implements modern development practices with TypeScript and Vite for optimal performance
+
+### **[✅ React Task Manager](https://github.com/rasoulveisi/React-TaskManager)**
+*Modern task management solution with React*
+- Responsive interface with local storage integration and data persistence
+- Advanced filtering, sorting, and search capabilities for productivity enhancement
+- Clean architecture with React hooks and modern development patterns
+- Optimized performance with efficient state management and component lifecycle
+
+### **[🛒 E-Commerce Context API](https://github.com/rasoulveisi/ECommerce-ContextAPI)**
+*Scalable shopping cart implementation with React Context API*
+- Professional cart management with persistent state and session handling
+- Product catalog integration with dynamic pricing and inventory management
+- Responsive e-commerce interface with modern shopping cart functionality
+- Demonstrates Context API patterns for complex state management scenarios
+
+### **[🛍️ E-Commerce Redux Store](https://github.com/rasoulveisi/ECommerce-ReduxStore)**
+*Enterprise-level shopping cart with Redux Toolkit*
+- Advanced state management using Redux Toolkit with middleware for async operations
+- Complex side effects handling with Redux Thunk and custom middleware
+- Scalable architecture suitable for large-scale e-commerce applications
+- Professional implementation of modern Redux patterns and best practices
 
 ---
 
@@ -107,15 +172,28 @@ Results-driven Frontend Engineer with **3+ years of experience** delivering high
 
 ---
 
-## ✅ Professional Highlights
+## 💡 Professional Highlights
 
-- **Performance Optimization Expert** — Consistently delivered significant improvements in application performance and user experience
-- **Test-Driven Development Advocate** — Maintained comprehensive test coverage across all projects
-- **Cross-functional Collaboration** — Worked effectively with design, backend, and product teams in agile environments
-- **Healthcare Domain Specialist** — Developed HIPAA-compliant applications for medical and pharmacy sectors
-- **PWA & Mobile-First Expert** — Specialized in Progressive Web Apps and responsive design
-- **Modern Web Standards** — Expert in ES6+, TypeScript, and contemporary frontend best practices
-- **Continuous Learning** — Committed to staying current with latest frontend technologies and industry trends
+- **🅰️ Angular Mastery:** Deep expertise in Angular framework, RxJS reactive programming, and Angular ecosystem
+- **🏥 Healthcare Technology Specialist:** Deep understanding of medical workflows and HIPAA compliance requirements
+- **⚡ Performance Champion:** Consistently delivered significant improvements in Angular application performance and user experience
+- **🧪 Quality Advocate:** Maintained comprehensive test coverage using Angular testing tools and best practices
+- **🤝 Team Collaboration:** Experienced in agile environments with cross-functional teams including design, backend, and product
+- **📱 PWA Expert:** Specialized in Angular Progressive Web Apps, responsive design, and cross-platform compatibility
+- **🔄 Modern Standards:** Expert in TypeScript, Angular best practices, and contemporary frontend development
+- **📚 Continuous Learning:** Committed to staying current with latest Angular features and modern web technologies
+
+---
+
+## 🌟 Technical Differentiators
+
+- **Angular Ecosystem Mastery:** Expert-level knowledge of Angular, RxJS, Angular Material, and PrimeNG
+- **AI/ML Integration:** Experience with AI Chat Integration, PyTorch, Deep Learning, and intelligent user interfaces
+- **Healthcare Domain:** HIPAA-compliant Angular applications and medical system development
+- **Performance Optimization:** Proven track record of significant Angular application performance improvements
+- **Enterprise Architecture:** Scalable Angular solutions suitable for large-scale applications
+- **Testing Excellence:** Comprehensive testing strategies using Angular testing tools and Cypress
+- **Modern Development:** Expertise in Angular 19, standalone components, and latest Angular features
 
 ---
 
