@@ -1,0 +1,141 @@
+% Setting up the document
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\setmainfont{Roboto}
+\geometry{top=0.8cm,bottom=0.8cm,left=1.2cm,right=1.2cm}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\definecolor{headercolor}{RGB}{79,70,229}
+\definecolor{linkcolor}{RGB}{79,70,229}
+
+% Defining section formatting
+\newcommand{\sectionheader}[1]{\vspace{6pt}\textbf{\large\color{headercolor}#1}\vspace{1pt}\hrule\vspace{4pt}}
+\newcommand{\jobtitle}[1]{\textbf{#1}}
+\newcommand{\company}[1]{\textit{\color{headercolor}#1}}
+\newcommand{\projecttitle}[1]{\textbf{#1}}
+
+% Configure hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor
+}
+
+\begin{document}
+
+% Header without Profile Picture
+\begin{center}
+    {\huge\bfseries\color{headercolor} RASOUL VEISI} \\
+    \vspace{2pt}
+    {\large Angular Frontend Developer} \\
+    \vspace{3pt}
+    \href{mailto:rasoulweysi@gmail.com}{rasoulweysi@gmail.com} $\bullet$ +98-9108259755 $\bullet$ Tehran, Iran \\
+    \href{https://rasoulveisi.github.io}{rasoulveisi.github.io} $\bullet$ \href{http://linkedin.com/in/rasoulveisi}{linkedin.com/in/rasoulveisi} $\bullet$ \href{https://github.com/rasoulveisi}{github.com/rasoulveisi}
+\end{center}
+
+\vspace{4pt}
+
+% About Me
+\sectionheader{About Me}
+Results-driven Frontend Engineer with \textbf{3+ years of experience} delivering high-performance web applications in healthcare and e-commerce domains. Specialized in Angular and modern frontend technologies with expertise in performance optimization and scalable architecture design.
+
+% Work Experience
+\sectionheader{Work Experience}
+
+\jobtitle{Frontend Web Developer} \hfill \textbf{Sep 2022 -- Present} \\
+\href{https://bluebitsoft.codes/}{\company{BlueBitSoft}} $\bullet$ Healthcare Technology Company \\
+\vspace{-10pt}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt, parsep=0pt, topsep=3pt]
+    \item Developed comprehensive pharmacy inventory management system using Angular and REST APIs with QR code scanning
+    \item Enhanced application performance through code refactoring, significantly reducing load times and improving UX
+    \item Implemented robust testing framework with Jasmine/Karma, maintaining comprehensive code coverage
+    \item Collaborated with cross-functional teams to deliver HIPAA-compliant healthcare solutions
+\end{itemize}
+\vspace{-1pt}
+\textbf{Technologies:} Angular, TypeScript, REST APIs, RxJS, Jasmine, Karma, HTML5, CSS3
+
+\vspace{12pt}
+\jobtitle{PWA \& E-Commerce Platform Developer (Part-time)} \hfill \textbf{Dec 2021 -- Sep 2022} \\
+\href{https://ketab.ir/}{\company{Ketab.ir}} $\bullet$ \href{https://bazarketab.ir/}{\company{BazarKetab.ir}} $\bullet$ Digital Publishing and E-commerce Platform \\
+\vspace{-10pt}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt, parsep=0pt, topsep=3pt]
+    \item Architected Progressive Web Application for e-commerce platform with offline functionality
+    \item Built comprehensive vendor dashboard using Angular and Ionic for inventory management and analytics
+    \item Implemented advanced PWA features including service workers and push notifications
+\end{itemize}
+\vspace{-1pt}
+\textbf{Technologies:} Angular, Ionic, PWA, TypeScript, HTML5, CSS3, Service Workers
+
+% Skills and Education (Two Column Layout)
+\begin{multicols}{2}
+
+\sectionheader{Technical Skills}
+\textbf{Frontend:} Angular (Expert), React.js (19), Next.js, Ionic \\
+\textbf{Languages:} JavaScript (ES6+), TypeScript, Python \\
+\textbf{State Management:} RxJS, Zustand, Redux, Context API \\
+\textbf{Testing:} Jasmine, Karma, Cypress, Robot Framework \\
+\textbf{Tools:} Git, Docker, CI/CD, Webpack \\
+\textbf{AI/ML:} AI Chat Integration, PyTorch, Deep Learning \\
+\textbf{Styling:} Tailwind CSS, Bootstrap, PrimeNG \\
+\textbf{Healthcare:} HIPAA Compliance, Medical Systems
+
+\columnbreak
+
+\sectionheader{Education}
+\jobtitle{M.Sc. Mechanical Engineering (Mechatronics)} \hfill \textbf{2022} \\
+\company{Isfahan University of Technology, Iran} \\
+\textit{Thesis: AI-Based Predictive Control \& Model Identification}
+
+\vspace{4pt}
+\jobtitle{B.Sc. Biosystems Mechanical Engineering} \hfill \textbf{2019} \\
+\company{Razi University, Kermanshah, Iran}
+
+\end{multicols}
+
+% Featured Projects
+\sectionheader{Featured Projects}
+\vspace{-2pt}
+\begin{multicols}{2}
+
+\projecttitle{Healthcare OT Evaluation System} \\
+Comprehensive Angular application for occupational therapy evaluations with dynamic forms, assessment management, and HIPAA-compliant data handling. \\
+\href{https://github.com/rasoulveisi/HealthcareOT-EvaluationSystem}{\footnotesize github.com/rasoulveisi/HealthcareOT-EvaluationSystem}
+
+\vspace{4pt}
+\projecttitle{Rick \& Morty DataTable} \\
+Advanced Angular data table with PrimeNG integration, real-time API consumption, and sophisticated filtering capabilities. \\
+\href{https://github.com/rasoulveisi/RickMorty-DataTable}{\footnotesize github.com/rasoulveisi/RickMorty-DataTable}
+
+\vspace{4pt}
+\projecttitle{Angular Infinite Scroll Directive} \\
+Performance-optimized custom directive with virtual scrolling techniques for large datasets and efficient memory management. \\
+\href{https://github.com/rasoulveisi/Angular-InfiniteScroll-Directive}{\footnotesize github.com/rasoulveisi/Angular-InfiniteScroll-Directive}
+
+\columnbreak
+
+\projecttitle{PrimeNG DateRange Picker} \\
+Professional Angular 19 date picker component with Tailwind CSS styling, calendar views, and enterprise-grade validation. \\
+\href{https://github.com/rasoulveisi/PrimeNG-DateRangePicker}{\footnotesize github.com/rasoulveisi/PrimeNG-DateRangePicker}
+
+\vspace{4pt}
+\projecttitle{MetisAI Chat Interface} \\
+Enterprise-grade AI chat application with React 19, Zustand state management, and OpenAI GPT integration featuring advanced conversation management. \\
+\href{https://github.com/rasoulveisi/MetisAI-ChatInterface}{\footnotesize github.com/rasoulveisi/MetisAI-ChatInterface}
+
+\vspace{4pt}
+\projecttitle{E-Commerce Redux Store} \\
+Scalable shopping cart with Redux Toolkit, middleware for async operations, and enterprise-level state management patterns. \\
+\href{https://github.com/rasoulveisi/ECommerce-ReduxStore}{\footnotesize github.com/rasoulveisi/ECommerce-ReduxStore}
+
+\end{multicols}
+
+\end{document}

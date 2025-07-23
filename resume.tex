@@ -1,0 +1,140 @@
+% Setting up the document
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{multicol}
+\setmainfont{Roboto}
+\geometry{top=1cm,bottom=1cm,left=1.2cm,right=1.2cm}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5pt}
+\definecolor{headercolor}{RGB}{79,70,229}
+\definecolor{linkcolor}{RGB}{79,70,229}
+
+% Defining section formatting
+\newcommand{\sectionheader}[1]{\vspace{4pt}\textbf{\large\color{headercolor}#1}\vspace{1pt}\hrule\vspace{2pt}}
+\newcommand{\jobtitle}[1]{\textbf{#1}}
+\newcommand{\company}[1]{\textit{\color{headercolor}#1}}
+\newcommand{\projecttitle}[1]{\textbf{#1}}
+
+% Configure hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\huge\bfseries\color{headercolor} RASOUL VEISI} \\
+    \vspace{1pt}
+    {\large Angular Frontend Developer} \\
+    \vspace{2pt}
+    \href{mailto:rasoulweysi@gmail.com}{rasoulweysi@gmail.com} $\bullet$ +98-9108259755 $\bullet$ Tehran, Iran \\
+    \href{https://rasoulveisi.github.io}{rasoulveisi.github.io} $\bullet$ \href{http://linkedin.com/in/rasoulveisi}{linkedin.com/in/rasoulveisi} $\bullet$ \href{https://github.com/rasoulveisi}{github.com/rasoulveisi}
+\end{center}
+
+% About Me
+\sectionheader{About Me}
+Results-driven Angular Frontend Engineer with \textbf{5+ years of experience} delivering high-performance web applications in healthcare and e-commerce domains. Specialized in the Angular ecosystem with expertise in RxJS, performance optimization, TDD, and scalable architecture. Known for delivering robust, responsive, and maintainable applications with real business impact.
+
+% Work Experience
+\sectionheader{Work Experience}
+
+\jobtitle{Frontend Web Developer} \hfill \textbf{Sep 2022 -- Present} \\
+\company{BlueBitSoft} $\bullet$ Healthcare Technology Company \\
+\vspace{-3pt}
+\begin{itemize}[leftmargin=15pt, itemsep=0.5pt, parsep=0pt, topsep=2pt]
+    \item Built Angular modules for pharmacy inventory, prescriptions, QR/barcode scanning (APL Platform)
+    \item Refactored 30\% of legacy codebase using standalone components and OnPush CD
+    \item Integrated Leaflet.js map with CouchDB for 10k+ real-time markers with performance optimization
+    \item Wrote 300+ tests and enforced CI pipelines with Cypress/Jasmine
+\end{itemize}
+\vspace{1pt}
+\textbf{Technologies:} Angular 13-19, RxJS, PrimeNG, CouchDB, Leaflet.js, Jasmine, Karma, Cypress
+
+\vspace{2pt}
+\jobtitle{Frontend Web Developer (Part-time)} \hfill \textbf{Dec 2021 -- Oct 2022} \\
+\company{Khane Ketab Iran} $\bullet$ Digital Publishing Platform \\
+\vspace{-3pt}
+\begin{itemize}[leftmargin=15pt, itemsep=0.5pt, parsep=0pt, topsep=2pt]
+    \item Developed PWA with Angular \& Ionic, added service workers and push notifications
+    \item Built vendor dashboards with reactive forms and local analytics
+    \item Improved UX across device types using Angular Flex Layout and Tailwind CSS
+\end{itemize}
+\vspace{1pt}
+\textbf{Technologies:} Angular, Ionic, Service Workers, TypeScript, HTML5, CSS3
+
+\vspace{2pt}
+\jobtitle{Frontend Developer} \hfill \textbf{Mar 2020 -- Feb 2021} \\
+\company{Zagros System} $\bullet$ Software Development Company \\
+\vspace{-3pt}
+\begin{itemize}[leftmargin=15pt, itemsep=0.5pt, parsep=0pt, topsep=2pt]
+    \item Developed responsive web interfaces using HTML5, CSS3, and JavaScript
+    \item Built interactive web applications and progressed to React.js development
+    \item Collaborated with development teams on multiple client projects
+\end{itemize}
+\vspace{1pt}
+\textbf{Technologies:} HTML5, CSS3, JavaScript (ES6+), React.js, Git
+
+% Skills and Education (Two Column Layout)
+\begin{multicols}{2}
+
+\sectionheader{Technical Skills}
+\textbf{Angular:} Framework (Expert), Material, PrimeNG, RxJS \\
+\textbf{Frontend:} React.js (19), Next.js, Ionic, TypeScript \\
+\textbf{Testing:} Jasmine, Karma, Cypress, Robot Framework \\
+\textbf{Tools:} Git, Docker, Webpack, Vite, CI/CD \\
+\textbf{Data:} CouchDB, PouchDB, Leaflet.js \\
+\textbf{Styling:} Tailwind CSS, Bootstrap, CSS3, HTML5
+
+\columnbreak
+
+\sectionheader{Education}
+\jobtitle{M.Sc. Mechanical Engineering (Mechatronics)} \hfill \textbf{2022} \\
+\company{Isfahan University of Technology, Iran} \\
+\textit{Thesis: Predictive Control \& Model Identification using AI and Machine Learning}
+
+\vspace{1.5pt}
+\jobtitle{B.Sc. Biosystems Mechanical Engineering} \hfill \textbf{2019} \\
+\company{Razi University, Kermanshah, Iran}
+
+\end{multicols}
+
+% Featured Projects
+\sectionheader{Featured Projects}
+\begin{multicols}{2}
+
+\projecttitle{Angular Infinite Scroll Directive} \\
+Custom directive for performance-optimized infinite scrolling with virtual scrolling techniques for large datasets. \\
+\href{https://github.com/rasoulveisi/Angular-Infinite-Scroll}{\footnotesize github.com/rasoulveisi/Angular-Infinite-Scroll} \\
+\href{https://angular-infinite-scroll-rasoulveisi.vercel.app/}{\footnotesize angular-infinite-scroll-rasoulveisi.vercel.app}
+
+\vspace{2pt}
+\projecttitle{React Task Management App} \\
+Modern task management solution with responsive interface, local storage integration, and advanced filtering capabilities. \\
+\href{https://github.com/rasoulveisi/React-TodoList}{\footnotesize github.com/rasoulveisi/React-TodoList} \\
+\href{https://react-todolist-rasoulveisi.vercel.app/}{\footnotesize react-todolist-rasoulveisi.vercel.app}
+
+\columnbreak
+
+\projecttitle{React Context API Shopping Cart} \\
+E-commerce cart implementation using React Context API with scalable architecture and persistent state management. \\
+\href{https://github.com/rasoulveisi/React-Cart-Context}{\footnotesize github.com/rasoulveisi/React-Cart-Context} \\
+\href{https://react-cart-context-rasoulveisi.vercel.app/}{\footnotesize react-cart-context-rasoulveisi.vercel.app}
+
+\vspace{2pt}
+\projecttitle{Redux State Management Cart} \\
+Advanced shopping cart with Redux state management, middleware for async operations, and complex side effects handling. \\
+\href{https://github.com/rasoulveisi/Redux-Cart}{\footnotesize github.com/rasoulveisi/Redux-Cart} \\
+\href{https://redux-cart-rasoulveisi.vercel.app/}{\footnotesize redux-cart-rasoulveisi.vercel.app}
+
+\end{multicols}
+
+\end{document} 
