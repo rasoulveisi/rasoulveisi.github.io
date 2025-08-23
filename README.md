@@ -1,6 +1,6 @@
 # Rasoul Veisi
 
-**Angular Frontend Developer**  
+**Frontend Developer**  
 📍 Tehran, Iran | ✉️ [rasoulweysi@gmail.com](mailto:rasoulweysi@gmail.com) | 📞 +98-9108259755  
 🌐 [Portfolio](https://rasoulveisi.github.io) | 💼 [LinkedIn](http://linkedin.com/in/rasoulveisi) | 👨‍💻 [GitHub](https://github.com/rasoulveisi)
 
@@ -8,18 +8,22 @@
 
 ## 🧑‍💻 About Me
 
-Results-driven Angular Frontend Engineer with **5+ years of experience** delivering high-performance web applications in healthcare and e-commerce domains. Specialized in the Angular ecosystem with expertise in RxJS, performance optimization, TDD, and scalable architecture. Known for delivering robust, responsive, and maintainable applications with real business impact.
+Results-driven **Frontend Developer** with **5+ years of experience** delivering high-performance web applications in healthcare and e-commerce domains. **Expert in Angular ecosystem** with deep expertise in RxJS, state management, Angular Material, and scalable modular architecture. **Proficient in React.js** for modern frontend development and **knowledgeable about .NET backend development** for full-stack understanding. Proven track record in building enterprise-grade applications with performance optimization for large-scale systems.
 
 ---
 
 ## 🏆 Notable Achievements
 
-- **🅰️ Angular Expert:** Deep expertise in Angular framework, RxJS reactive programming, and Angular ecosystem tools
+- **🅰️ Angular Expert:** Deep expertise in Angular framework, RxJS reactive programming, NgRx state management, and Angular ecosystem tools
+- **⚛️ React Proficiency:** Experienced in React.js development with modern hooks, state management, and component architecture
+- **🔧 Backend Knowledge:** Familiar with .NET backend development and C# for understanding full-stack architecture
 - **🏥 Healthcare Domain Expert:** Built HIPAA-compliant OT evaluation systems and pharmacy inventory management platforms
 - **⚡ Performance Optimization:** Delivered scalable leaflet-based map modules with optimized rendering for 10,000+ real-time pins
-- **🧪 Testing Champion:** 300+ unit/integration tests using Jasmine/Karma and Cypress
-- **📊 Enterprise Solutions:** Developed modular Angular architectures using federation and standalone components
+- **🧪 Testing Champion:** 300+ unit/integration tests using Jasmine/Karma, Cypress E2E testing, and Postman API testing
+- **📊 Enterprise Solutions:** Developed modular Angular architectures using NX Monorepo, federation and standalone components
 - **🎯 Modern Angular Development:** Hands-on experience with Angular 19+, Vite, and advanced state management patterns
+- **📱 PWA Specialist:** Expert in Progressive Web Apps with service workers, offline functionality, and push notifications
+- **🎨 Styling Expert:** Proficient in Sass/SCSS, Tailwind CSS, and Angular Material for scalable design systems
 
 ---
 
@@ -28,20 +32,33 @@ Results-driven Angular Frontend Engineer with **5+ years of experience** deliver
 ### **Angular Ecosystem (Primary Expertise)**
 - **Framework:** Angular (Expert - 3+ years), Angular Material, PrimeNG
 - **Reactive Programming:** RxJS, Observables, Operators, State Management Patterns
+- **State Management:** NgRx (Redux pattern), Actions, Reducers, Effects, Selectors
 - **Testing:** Jasmine, Karma, Angular Testing Utilities, Component Testing
 - **Architecture:** Standalone Components, Module Federation, Lazy Loading
 - **Performance:** OnPush CD, Virtual Scrolling, Chunking, Bundle Optimization
 
 ### **Frontend Technologies**
 - **Languages:** TypeScript (Expert), JavaScript (ES6+), HTML5, CSS3, Sass/SCSS
-- **Styling:** Tailwind CSS, Bootstrap, Angular Material Design System
-- **Other Frameworks:** React.js (19), Next.js, Ionic (Angular-based)
-- **PWA Development:** Angular Service Workers, Offline Functionality, Push Notifications
+- **Styling:** Tailwind CSS, Bootstrap, Angular Material Design System, Sass/SCSS
+- **Frameworks:** Angular (Expert), React.js (Proficient), Next.js, Ionic (Angular-based)
+- **PWA Development:** Angular Service Workers, Offline Functionality, Push Notifications, Web App Manifest
 
 ### **Development & Testing**
-- **Testing:** Jasmine, Karma, Cypress, Robot Framework
+- **Monorepo:** NX Monorepo, Workspace Management, Shared Libraries, Build Optimization
+- **Testing:** Jasmine, Karma, Cypress (E2E Testing), Angular Testing Utilities, Component Testing
+- **API Testing:** Postman Integration Testing, REST API Testing, API Documentation
 - **Tools:** Angular CLI, Vite, Git, Docker, Webpack, CI/CD
 - **API Integration:** Angular HTTP Client, REST APIs, WebSocket
+- **Data:** CouchDB, PouchDB, Leaflet.js (Real-time Map Rendering)
+
+### **Backend & Development Knowledge**
+- **Backend Framework:** .NET Core/.NET 5+, ASP.NET Core, Entity Framework (Knowledge)
+- **Programming Languages:** C#, TypeScript (Expert), JavaScript (ES6+), Python
+- **API Development:** RESTful APIs, Web API, API Design Patterns, Swagger/OpenAPI
+- **Database:** SQL Server, Entity Framework Core, Database Design, Data Modeling
+- **Testing:** Jasmine, Karma, Cypress, Robot Framework, Unit Testing
+- **Tools:** Angular CLI, Vite, Git, Docker, Webpack, CI/CD
+- **API Integration:** Angular HTTP Client, REST APIs, WebSocket, API Testing
 - **Data:** CouchDB, PouchDB, Leaflet.js (Real-time Map Rendering)
 
 ### **Specialized Expertise**
@@ -61,20 +78,25 @@ Results-driven Angular Frontend Engineer with **5+ years of experience** deliver
 **Key Projects & Achievements:**
 
 **APL (Advanced Pharmacy Logistics Platform)**
-- Built Angular modules for inventory, prescriptions, QR/barcode scanning
-- Refactored 30% of legacy codebase using standalone components and OnPush CD
-- Wrote 300+ tests and enforced CI test pipelines with Cypress/Jasmine
+- Built Angular modules for inventory, prescriptions, QR/barcode scanning with NgRx state management
+- Refactored 30% of legacy codebase using standalone components and OnPush CD strategies
+- Wrote 300+ tests and enforced CI test pipelines with Cypress E2E testing and Jasmine unit tests
+- **Collaborated with .NET backend team for API integration and data modeling**, understanding backend architecture
+- Implemented comprehensive API testing using Postman for integration testing
+- **Developed frontend solutions** with Angular while understanding .NET backend integration
 
 **Real-time Map Distribution System**
 - Integrated Leaflet.js map synced with CouchDB for 10k+ markers
 - Optimized rendering performance with efficient data handling for smooth user experience
 - Implemented data chunking + modular caching strategies
+- Utilized RxJS for reactive data streams and real-time updates
 
 **Admin Dashboard**
 - Built PrimeNG dashboard with role-based routing, reactive filters, and analytics
 - Introduced centralized shared service and state layers with RxJS
+- Developed with Sass/SCSS for maintainable and scalable styling architecture
 
-**Tech Stack:** Angular 13–19, RxJS, PrimeNG, CouchDB, Leaflet.js, Jasmine, Karma, Cypress, REST API
+**Tech Stack:** Angular 13–19, RxJS, NgRx, PrimeNG, CouchDB, Leaflet.js, .NET (Knowledge), C# (Knowledge), Entity Framework (Knowledge), SQL Server (Knowledge), Jasmine, Karma, Cypress (E2E), Postman, Sass/SCSS, REST API
 
 ---
 
@@ -82,11 +104,12 @@ Results-driven Angular Frontend Engineer with **5+ years of experience** deliver
 *Digital Publishing Platform* | 📍 Remote | 🗓️ December 2021 – October 2022
 
 **Key Achievements:**
-- **Developed PWA with Angular & Ionic**, added service workers and push notifications
-- **Built vendor dashboards** with reactive forms and local analytics
+- **Developed PWA with Angular & Ionic**, implemented service workers for offline functionality and push notifications
+- **Built vendor dashboards** with reactive forms and local analytics using NX Monorepo architecture
 - **Improved UX across device types** using Angular Flex Layout and Tailwind CSS
+- **Implemented comprehensive PWA features** including service worker caching strategies and web app manifest
 
-**Tech Stack:** Angular, Ionic, Service Workers, TypeScript, HTML5, CSS3
+**Tech Stack:** Angular, Ionic, Angular Material, NX Monorepo, Service Workers, PWA, TypeScript, HTML5, CSS3, Sass/SCSS
 
 ---
 
@@ -194,25 +217,34 @@ Results-driven Angular Frontend Engineer with **5+ years of experience** deliver
 
 ## 💡 Professional Highlights
 
-- **🅰️ Angular Mastery:** Deep expertise in Angular framework, RxJS reactive programming, and Angular ecosystem
+- **🅰️ Angular Mastery:** Deep expertise in Angular framework, RxJS reactive programming, NgRx state management, and Angular ecosystem
+- **⚛️ React Proficiency:** Experienced in React.js development with modern hooks, state management, and component architecture
+- **🔧 Backend Knowledge:** Familiar with .NET backend development and C# for understanding full-stack architecture
 - **🏥 Healthcare Technology Specialist:** Deep understanding of medical workflows and HIPAA compliance requirements
 - **⚡ Performance Champion:** Consistently delivered significant improvements in Angular application performance and user experience
-- **🧪 Quality Advocate:** Maintained comprehensive test coverage using Angular testing tools and best practices
+- **🧪 Quality Advocate:** Maintained comprehensive test coverage using Angular testing tools, Cypress E2E testing, and Postman API testing
 - **🤝 Team Collaboration:** Experienced in agile environments with cross-functional teams including design, backend, and product
-- **📱 PWA Expert:** Specialized in Angular Progressive Web Apps, responsive design, and cross-platform compatibility
-- **🔄 Modern Standards:** Expert in TypeScript, Angular best practices, and contemporary frontend development
+- **📱 PWA Expert:** Specialized in Angular Progressive Web Apps, service workers, responsive design, and cross-platform compatibility
+- **🔄 Modern Standards:** Expert in TypeScript, Angular best practices, NX Monorepo, and contemporary frontend development
 - **📚 Continuous Learning:** Committed to staying current with latest Angular features and modern web technologies
+- **🎨 Styling Expert:** Proficient in Sass/SCSS, Tailwind CSS, and design system architecture for scalable applications
 
 ---
 
 ## 🌟 Technical Differentiators
 
-- **Angular Ecosystem Mastery:** Expert-level knowledge of Angular, RxJS, Angular Material, and PrimeNG
+- **Angular Ecosystem Mastery:** Expert-level knowledge of Angular, RxJS, NgRx state management, Angular Material, and PrimeNG
+- **React.js Proficiency:** Experienced in React development with modern hooks, state management, and component architecture
+- **Backend Knowledge:** Familiar with .NET backend development, C#, ASP.NET Core, and Entity Framework for understanding full-stack architecture
+- **Monorepo Architecture:** Deep experience with NX Monorepo for scalable workspace management and shared library development
+- **Comprehensive Testing:** Expertise in Jasmine/Karma unit testing, Cypress E2E testing, and Postman API integration testing
+- **PWA Development:** Specialized in Progressive Web Apps with service workers, offline functionality, and push notifications
+- **Styling Architecture:** Proficient in Sass/SCSS, Tailwind CSS, and design system development for maintainable applications
 - **AI/ML Integration:** Experience with AI Chat Integration, PyTorch, Deep Learning, and intelligent user interfaces
 - **Healthcare Domain:** HIPAA-compliant Angular applications and medical system development
 - **Performance Optimization:** Proven track record of significant Angular application performance improvements
 - **Enterprise Architecture:** Scalable Angular solutions suitable for large-scale applications
-- **Testing Excellence:** Comprehensive testing strategies using Angular testing tools and Cypress
+- **Testing Excellence:** Comprehensive testing strategies using Angular testing tools, Cypress, and Postman
 - **Modern Development:** Expertise in Angular 19, standalone components, and latest Angular features
 
 ---

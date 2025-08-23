@@ -1,5 +1,5 @@
 % Setting up the document
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,9pt]{article}
 \usepackage{geometry}
 \usepackage{xcolor}
 \usepackage{enumitem}
@@ -9,15 +9,15 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \setmainfont{Roboto}
-\geometry{top=0.8cm,bottom=0.8cm,left=1.2cm,right=1.2cm}
+\geometry{top=0.5cm,bottom=0.5cm,left=1cm,right=1cm}
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
+\setlength{\parskip}{2pt}
 \definecolor{headercolor}{RGB}{79,70,229}
 \definecolor{linkcolor}{RGB}{79,70,229}
 
 % Defining section formatting
-\newcommand{\sectionheader}[1]{\vspace{6pt}\textbf{\large\color{headercolor}#1}\vspace{1pt}\hrule\vspace{4pt}}
+\newcommand{\sectionheader}[1]{\vspace{4pt}\textbf{\large\color{headercolor}#1}\vspace{1pt}\hrule\vspace{3pt}}
 \newcommand{\jobtitle}[1]{\textbf{#1}}
 \newcommand{\company}[1]{\textit{\color{headercolor}#1}}
 \newcommand{\projecttitle}[1]{\textbf{#1}}
@@ -36,7 +36,7 @@
 \begin{center}
     {\huge\bfseries\color{headercolor} RASOUL VEISI} \\
     \vspace{2pt}
-    {\large Angular Frontend Developer} \\
+    {\large Frontend Developer} \\
     \vspace{3pt}
     \href{mailto:rasoulweysi@gmail.com}{rasoulweysi@gmail.com} $\bullet$ +98-9108259755 $\bullet$ Tehran, Iran \\
     \href{https://rasoulveisi.github.io}{rasoulveisi.github.io} $\bullet$ \href{http://linkedin.com/in/rasoulveisi}{linkedin.com/in/rasoulveisi} $\bullet$ \href{https://github.com/rasoulveisi}{github.com/rasoulveisi}
@@ -46,47 +46,61 @@
 
 % About Me
 \sectionheader{About Me}
-Results-driven Frontend Engineer with \textbf{3+ years of experience} delivering high-performance web applications in healthcare and e-commerce domains. Specialized in Angular and modern frontend technologies with expertise in performance optimization and scalable architecture design.
+Results-driven \textbf{Frontend Developer} with \textbf{5+ years of experience} delivering high-performance web applications in healthcare and e-commerce domains. \textbf{Expert in Angular ecosystem} with deep expertise in RxJS, state management, Angular Material, and scalable modular architecture. \textbf{Proficient in React.js} for modern frontend development. Proven track record in building enterprise-grade applications with performance optimization for large-scale systems.
 
 % Work Experience
 \sectionheader{Work Experience}
 
 \jobtitle{Frontend Web Developer} \hfill \textbf{Sep 2022 -- Present} \\
 \href{https://bluebitsoft.codes/}{\company{BlueBitSoft}} $\bullet$ Healthcare Technology Company \\
-\vspace{-10pt}
-\begin{itemize}[leftmargin=15pt, itemsep=2pt, parsep=0pt, topsep=3pt]
-    \item Developed comprehensive pharmacy inventory management system using Angular and REST APIs with QR code scanning
-    \item Enhanced application performance through code refactoring, significantly reducing load times and improving UX
-    \item Implemented robust testing framework with Jasmine/Karma, maintaining comprehensive code coverage
-    \item Collaborated with cross-functional teams to deliver HIPAA-compliant healthcare solutions
+\vspace{-8pt}
+\begin{itemize}[leftmargin=15pt, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Built Angular modules for inventory, prescriptions, QR/barcode scanning with state management
+    \item Refactored 30\% of legacy codebase using standalone components and OnPush CD strategies
+    \item Designed scalable modular architecture with lazy loading and reusable component library
+    \item Utilized RxJS for reactive data streams and real-time updates
+    \item Collaborated with .NET backend team for API integration and data modeling
+    \item Wrote 300+ tests and enforced CI test pipelines with Cypress/Jasmine for comprehensive coverage
 \end{itemize}
-\vspace{-1pt}
-\textbf{Technologies:} Angular, TypeScript, REST APIs, RxJS, Jasmine, Karma, HTML5, CSS3
+\vspace{-2pt}
+\textbf{Technologies:} Angular 13--19, RxJS, NgRx, PrimeNG, CouchDB, Leaflet.js, .NET, Jasmine, Karma, Cypress, REST API
 
-\vspace{12pt}
+\vspace{8pt}
 \jobtitle{PWA \& E-Commerce Platform Developer (Part-time)} \hfill \textbf{Dec 2021 -- Sep 2022} \\
 \href{https://ketab.ir/}{\company{Ketab.ir}} $\bullet$ \href{https://bazarketab.ir/}{\company{BazarKetab.ir}} $\bullet$ Digital Publishing and E-commerce Platform \\
-\vspace{-10pt}
-\begin{itemize}[leftmargin=15pt, itemsep=2pt, parsep=0pt, topsep=3pt]
+\vspace{-8pt}
+\begin{itemize}[leftmargin=15pt, itemsep=1pt, parsep=0pt, topsep=2pt]
     \item Architected Progressive Web Application for e-commerce platform with offline functionality
     \item Built comprehensive vendor dashboard using Angular and Ionic for inventory management and analytics
     \item Implemented advanced PWA features including service workers and push notifications
 \end{itemize}
-\vspace{-1pt}
-\textbf{Technologies:} Angular, Ionic, PWA, TypeScript, HTML5, CSS3, Service Workers
+\vspace{-2pt}
+\textbf{Technologies:} Angular, Ionic, PWA, Angular Material, NX, TypeScript, HTML5, CSS3, Service Workers
+
+\vspace{8pt}
+\jobtitle{Frontend Developer (Intern)} \hfill \textbf{Mar 2020 -- Feb 2021} \\
+\company{Zagros System} $\bullet$ Software Development Company \\
+\vspace{-8pt}
+\begin{itemize}[leftmargin=15pt, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Developed responsive web interfaces using HTML5, CSS3, and JavaScript
+    \item Collaborated with development teams on client projects
+\end{itemize}
+\vspace{-2pt}
+\textbf{Technologies:} HTML5, CSS3, JavaScript (ES6+), React.js, Git
 
 % Skills and Education (Two Column Layout)
 \begin{multicols}{2}
 
 \sectionheader{Technical Skills}
-\textbf{Frontend:} Angular (Expert), React.js (19), Next.js, Ionic \\
-\textbf{Languages:} JavaScript (ES6+), TypeScript, Python \\
-\textbf{State Management:} RxJS, Zustand, Redux, Context API \\
+\textbf{Frontend:} Angular 16+ (Expert), Angular Material, NgRx, NX Monorepo \\
+\textbf{Languages:} JavaScript (ES6+), TypeScript, Python, C\# \\
+\textbf{Backend:} .NET, REST APIs \\
+\textbf{State Management:} RxJS (Reactive), Zustand, Redux, Context API \\
 \textbf{Testing:} Jasmine, Karma, Cypress, Robot Framework \\
-\textbf{Tools:} Git, Docker, CI/CD, Webpack \\
+\textbf{Tools:} Git, Docker, CI/CD, Webpack, Vite \\
 \textbf{AI/ML:} AI Chat Integration, PyTorch, Deep Learning \\
 \textbf{Styling:} Tailwind CSS, Bootstrap, PrimeNG \\
-\textbf{Healthcare:} HIPAA Compliance, Medical Systems
+\textbf{Specialized:} Scalable Architecture, Enterprise Applications, Performance Optimization
 
 \columnbreak
 
@@ -95,7 +109,7 @@ Results-driven Frontend Engineer with \textbf{3+ years of experience} delivering
 \company{Isfahan University of Technology, Iran} \\
 \textit{Thesis: AI-Based Predictive Control \& Model Identification}
 
-\vspace{4pt}
+\vspace{2pt}
 \jobtitle{B.Sc. Biosystems Mechanical Engineering} \hfill \textbf{2019} \\
 \company{Razi University, Kermanshah, Iran}
 
@@ -103,38 +117,28 @@ Results-driven Frontend Engineer with \textbf{3+ years of experience} delivering
 
 % Featured Projects
 \sectionheader{Featured Projects}
-\vspace{-2pt}
+\vspace{-3pt}
 \begin{multicols}{2}
 
 \projecttitle{Healthcare OT Evaluation System} \\
-Comprehensive Angular application for occupational therapy evaluations with dynamic forms, assessment management, and HIPAA-compliant data handling. \\
+Enterprise Angular application with dynamic forms, HIPAA-compliant data handling, and assessment management for healthcare providers. \\
 \href{https://github.com/rasoulveisi/HealthcareOT-EvaluationSystem}{\footnotesize github.com/rasoulveisi/HealthcareOT-EvaluationSystem}
 
-\vspace{4pt}
+\vspace{3pt}
 \projecttitle{Rick \& Morty DataTable} \\
-Advanced Angular data table with PrimeNG integration, real-time API consumption, and sophisticated filtering capabilities. \\
+Advanced Angular data table with PrimeNG integration, real-time API consumption, and virtual scrolling for large datasets. \\
 \href{https://github.com/rasoulveisi/RickMorty-DataTable}{\footnotesize github.com/rasoulveisi/RickMorty-DataTable}
-
-\vspace{4pt}
-\projecttitle{Angular Infinite Scroll Directive} \\
-Performance-optimized custom directive with virtual scrolling techniques for large datasets and efficient memory management. \\
-\href{https://github.com/rasoulveisi/Angular-InfiniteScroll-Directive}{\footnotesize github.com/rasoulveisi/Angular-InfiniteScroll-Directive}
 
 \columnbreak
 
+\projecttitle{Angular Infinite Scroll Directive} \\
+Performance-optimized custom directive with virtual scrolling techniques and efficient memory management for enterprise applications. \\
+\href{https://github.com/rasoulveisi/Angular-InfiniteScroll-Directive}{\footnotesize github.com/rasoulveisi/Angular-InfiniteScroll-Directive}
+
+\vspace{3pt}
 \projecttitle{PrimeNG DateRange Picker} \\
-Professional Angular 19 date picker component with Tailwind CSS styling, calendar views, and enterprise-grade validation. \\
+Professional Angular 19 date picker component with Tailwind CSS styling and enterprise-grade validation for business applications. \\
 \href{https://github.com/rasoulveisi/PrimeNG-DateRangePicker}{\footnotesize github.com/rasoulveisi/PrimeNG-DateRangePicker}
-
-\vspace{4pt}
-\projecttitle{MetisAI Chat Interface} \\
-Enterprise-grade AI chat application with React 19, Zustand state management, and OpenAI GPT integration featuring advanced conversation management. \\
-\href{https://github.com/rasoulveisi/MetisAI-ChatInterface}{\footnotesize github.com/rasoulveisi/MetisAI-ChatInterface}
-
-\vspace{4pt}
-\projecttitle{E-Commerce Redux Store} \\
-Scalable shopping cart with Redux Toolkit, middleware for async operations, and enterprise-level state management patterns. \\
-\href{https://github.com/rasoulveisi/ECommerce-ReduxStore}{\footnotesize github.com/rasoulveisi/ECommerce-ReduxStore}
 
 \end{multicols}
 
