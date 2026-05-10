@@ -5,4 +5,8 @@ Rasoul Veisi.synctex.gz
 Rasoul Veisi.toc
 Rasoul Veisi.fls
 Rasoul Veisi.fdb_latexmk
-Rasoul Veisi.fls
+
+# Agent / Cursor skills lock (local hashes)
+skills-lock.json
+missfont.log
+.agents
