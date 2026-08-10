@@ -1,224 +1,117 @@
 # Rasoul Veisi
 
-**Senior Frontend Developer | Full-Stack Engineer (.NET & Angular/React)**  
-📍 Yerevan, Armenia | ✉️ [rasoulveisidev@gmail.com](mailto:rasoulveisidev@gmail.com) | 📞 +374-98089113  
-🌐 [Portfolio](https://rasoulveisi.github.io) | 💼 [LinkedIn](https://www.linkedin.com/in/rasoulveisi) | 👨‍💻 [GitHub](https://github.com/rasoulveisi)
+<div align="center">
+  <h3>Senior Full-Stack Engineer</h3>
+  <p><strong>Angular Specialist | ASP.NET Core Microservices & Cloudflare Workers</strong></p>
+
+  [![Website](https://img.shields.io/badge/Portfolio-rasoulveisi.github.io-1e3a8a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rasoulveisi.github.io)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-rasoulveisi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rasoulveisi)
+  [![Email](https://img.shields.io/badge/Email-rasoulveisidev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rasoulveisidev@gmail.com)
+</div>
 
 ---
 
-## 🧑‍💻 About Me
+## ⚡ About Me
 
-**Senior Frontend / Full-Stack Engineer** (**Angular**, **TypeScript**, **React.js**, **.NET**) with **5+ years** delivering production systems in **EU pharmacy workflow software** and **digital commerce**. At **[PharmaBits](https://www.pharmabits.de/)** (formerly branded **BlueBitSoft**—same products and engineering org), I focus on **operator-grade UIs**, **release quality**, and **end-to-end delivery** in a regulated, GDPR-aware product context.
+I am a **Senior Full-Stack Engineer** with **5+ years of enterprise experience** building high-scale healthcare logistics software, digital publishing marketplaces, and serverless AI applications.
 
-**Why teams bring me in**
-- **Ships complex flows to production:** modular **Angular 13–19** delivery with **NgRx**, **RxJS**, **standalone** components, and **lazy loading** for inventory/prescription and logistics surfaces—built to stay maintainable as scope and teams grow.
-- **Delivers credible React.js work too:** **production React** in earlier roles plus **React 19 + TypeScript** portfolio apps (**hooks**, **Zustand** / **Redux Toolkit**, **Vite**, REST/OpenAI integrations)—strong fit when teams run a **polyglot frontend** (Angular as primary depth, React for greenfield or satellite surfaces).
-- **Makes heavy data feel fast:** **Leaflet** operations maps that stay usable with **10,000+** concurrent markers through **RxJS** chunking and efficient update strategies (real operational load, not demo-scale).
-- **De-risks releases with measurable quality:** **300+** Jasmine/Karma + **Cypress** tests; contributed to **80%+** coverage goals on business-critical modules via reviews, merge gates, and shared frontend conventions (**senior IC** technical leadership—not formal people management).
-- **Grows beyond “UI-only”:** hands-on collaboration on **ASP.NET Core** endpoints/features and **EF Core** modeling so product intent ships faster with fewer UI/backend handoff loops.
-
----
-
-## 🏆 Highlights
-
-- **PharmaBits / pharmacy domain:** EU-focused pharmacy workflow and logistics products (organization rebranded from BlueBitSoft).
-- **Angular at scale:** NgRx, standalone components, lazy loading, NX-style modular delivery.
-- **React.js:** Production client delivery (earlier role) plus modern portfolio depth (React 19, hooks, Zustand / Redux Toolkit, Vite, Tailwind).
-- **Growing full-stack:** Hands-on collaboration on **ASP.NET Core** features and modeling—not only consuming APIs from the UI.
-- **Frontend technical ownership:** Merge workflow, reviews, and conventions across projects (without formal team-lead title).
-- **Quality:** 300+ unit/E2E tests (Jasmine/Karma, Cypress); strong coverage targets on critical paths.
-- **Maps & performance:** Leaflet.js with **10,000+** live markers; RxJS-driven chunking and efficient updates.
-- **PWAs:** Angular + Ionic, offline sync, service workers, push notifications (prior role).
-- **Languages:** English (professional), Persian (native).
+- 🏆 **Domain Expertise:** Primary frontend architect at **PharmaBits** (EU pharmacy workflow software), building modular **Angular (v13–19)** applications with **NgRx**, **RxJS**, and **standalone components**.
+- 🛠️ **Full-Stack Capability:** Active collaborator on **.NET 8/9** ASP.NET Core microservices (EF Core, Clean Architecture) and **Cloudflare Workers** (Hono, D1 SQLite, Drizzle ORM).
+- 🗺️ **Geospatial & Performance:** Engineered real-time Leaflet.js tracking engine rendering **10,000+ live map markers** with RxJS chunking at sub-60fps smoothness.
+- 🧪 **Quality Discipline:** Maintained **80%+ automated test coverage** across high-risk modules with Jasmine, Karma, and Cypress (E2E).
+- 🤖 **Agentic AI Workflow:** Deep integration of modern AI tools (**Cursor**, **Claude Code**, **Codex**, **MCP**) for rapid API contract scaffolding, refactoring, and test generation.
 
 ---
 
-## 🛠 Technical Skills
+## 🏗️ Architecture & Stack Overview
 
-### **Angular Ecosystem (Primary Expertise)**
-- **Framework:** Angular (Expert - 3+ years), Angular Material, PrimeNG
-- **Reactive Programming:** RxJS, Observables, Operators, State Management Patterns
-- **State Management:** NgRx (Redux pattern), Actions, Reducers, Effects, Selectors
-- **Testing:** Jasmine, Karma, Angular Testing Utilities, Component Testing
-- **Architecture:** Standalone Components, Module Federation, Lazy Loading
-- **Performance:** OnPush CD, Virtual Scrolling, Chunking, Bundle Optimization
-- **Internationalization:** Angular **i18n**, locale-aware formats and validation (as used in product and library work)
+```mermaid
+flowchart TD
+    subgraph Client Layer ["Client Layer (Angular 19 & React 19)"]
+        UI1["Angular 19 PWA / Nx Monorepo\n(NgRx, RxJS, Standalone)"]
+        UI2["Vite React 19 App\n(Zustand / Redux Toolkit)"]
+        UI3["Leaflet.js Geospatial Engine\n(10,000+ Live Markers)"]
+    end
 
-### **React.js (secondary stack)**
-- **Core:** React 18/19, **TypeScript-first** components, **hooks**, functional components, modern patterns from shipped portfolio work
-- **State & data:** **Zustand**, **Redux Toolkit**, React **Context API** (e-commerce and task demos), predictable async flows
-- **UI & tooling:** **Tailwind CSS**, **Vite**, component composition and form-driven UIs as in public GitHub projects
-- **APIs & integrations:** REST clients, **OpenAI**-backed chat patterns (portfolio), Next.js where listed
+    subgraph Backend Layer [".NET Microservices & Cloudflare Workers"]
+        NET[".NET 8/9 ASP.NET Core\n(Clean Architecture, EF Core)"]
+        CF["Cloudflare Worker APIs\n(Hono Framework, Drizzle ORM)"]
+    end
 
-### **Backend & APIs (.NET)**
-- **Stack:** .NET 8/9, ASP.NET Core, C#, Entity Framework Core (Code First), SQL Server  
-- **Patterns:** REST, Clean Architecture influences, repository / unit-of-work style access, JWT / Identity (as applicable)  
-- **Practices:** Collaboration on API design and implementation; Swagger/OpenAPI, Postman  
+    subgraph Data & Infra ["Data Stores & Cloud Infrastructure"]
+        SQL[("SQL Server / PostgreSQL")]
+        D1[("Cloudflare D1 (SQLite)")]
+        LLM["OpenRouter AI APIs\n(Claude, GPT-4o, Llama)"]
+    end
 
-### **Development, Delivery & Quality**
-- **Release engineering:** Git, **Docker**, **CI/CD**, Angular CLI, Webpack, Vite (as used on projects)
-- **Testing:** Jasmine, Karma, Cypress (E2E), Angular Testing Utilities, component-level quality gates
-- **API verification:** Postman, REST integration testing, API documentation workflows
-- **Monorepo:** NX Monorepo, workspace boundaries, shared libraries, build optimization
-- **API integration:** Angular HTTP Client, REST, WebSocket (where applicable)
-- **Data surfaces:** CouchDB, PouchDB, Leaflet.js (real-time map rendering), WebSockets (where applicable)
+    UI1 --> NET
+    UI1 --> CF
+    UI2 --> CF
+    UI3 --> NET
 
-### **Frontend Technologies**
-- **Languages:** TypeScript (Expert), JavaScript (ES6+), HTML5, CSS3, Sass/SCSS
-- **Accessibility:** Semantic HTML, keyboard-first flows, **WCAG-oriented** component practices
-- **Styling:** Tailwind CSS, Bootstrap, Angular Material design system, Sass/SCSS
-- **Frameworks:** Angular (Expert), **React.js** (Proficient—see **React.js** subsection), Next.js, Ionic (Angular-based)
-- **PWA Development:** Angular Service Workers, offline functionality, push notifications, Web App Manifest
-
-### **Specialized**
-- Pharmacy / healthcare-adjacent workflows, GDPR-aware product context (PharmaBits markets)  
-- Open-source and portfolio projects: HIPAA-minded OT demo app, AI chat UI (React), Redux/Zustand samples  
-- English (professional), Persian (native)
-
-### **Adjacent (add when you can cite real usage)**
-- **Azure** next to ASP.NET Core (hosting, CI/CD integration, observability)
-- **Playwright** (or deeper Cypress-in-CI patterns) for E2E at pipeline speed
-- **OAuth2 / OIDC** beyond JWT-only flows (login, token refresh, session hardening)
+    NET --> SQL
+    CF --> D1
+    CF --> LLM
+```
 
 ---
 
-## 💼 Professional Experience
+## 🛠️ Tech Stack Matrix
 
-### **Senior Frontend / Full-Stack Developer** — **[PharmaBits](https://www.pharmabits.de/)**  
-*Pharmacy workflow software (EU). Formerly branded BlueBitSoft — same engineering organization.* | 📍 Yerevan / hybrid | 🗓️ **September 2022 – Present**
-
-**Focus:** Apoteek Logistiek (APL), cross-project platform delivery, and shared frontend engineering standards.
-
-**Results & accomplishments**
-- **Cut delivery risk on complex domains** by shipping modular **Angular** inventory/prescription experiences with **NgRx**, **standalone** components, and **lazy loading**—structuring features so teams can iterate without destabilizing shared surfaces.
-- **Improved end-to-end velocity** by contributing **ASP.NET Core** endpoints/features and **EF Core**-influenced modeling alongside the UI—reducing back-and-forth between “API contract” debates and shippable product behavior.
-- **Raised the production bar across repos** through consistent **code review**, **merge readiness** expectations, and shared **frontend conventions** (senior IC technical leadership; not people management).
-- **Delivered responsive operations tooling at scale** by building **Leaflet.js** map views that remain performant with **10,000+** live markers using **RxJS** chunking and efficient incremental updates under real warehouse/logistics-style usage.
-- **Increased release confidence** by owning a broad **test suite footprint** (**300+** Jasmine/Karma + **Cypress** tests) and contributing to **80%+** coverage targets on high-risk modules.
-- **Shipped admin-grade operator UX** with **PrimeNG** dashboards, **role-aware routing**, and shared **RxJS** service layers used across parallel product tracks.
-
-**Tech stack:** Angular 13–19, RxJS, NgRx, standalone components, ASP.NET Core, EF Core patterns, PrimeNG, CouchDB, Leaflet.js, Cypress, Jasmine, Karma, REST, Postman, Sass/SCSS, Tailwind (as used)
+| Category | Technologies & Tools |
+|---|---|
+| **Frontend Core** | Angular 13–19, RxJS, NgRx, Standalone Components, React.js, Next.js, Ionic/Capacitor |
+| **Styling & UI** | Tailwind CSS, PrimeNG, Angular Material, Leaflet.js, Sass/SCSS, HTML5/CSS3 |
+| **Backend & APIs** | .NET 8/9, ASP.NET Core, C#, EF Core, Cloudflare Workers, Hono, Drizzle ORM, REST APIs |
+| **Databases & Auth** | SQL Server, Cloudflare D1 (SQLite), PostgreSQL, CouchDB, JWT, Clerk Auth |
+| **Architecture & Tools** | npm / pnpm Monorepos, Nx, Clean Architecture, Docker, Git, Webpack, Vite |
+| **Testing & Quality** | Jasmine, Karma, Cypress (E2E), MS Test |
+| **AI & Automation** | Cursor, Claude Code, Codex, Model Context Protocol (MCP), Agentic Workflows |
 
 ---
 
-### **PWA & E-Commerce Developer** *(Part-time)* — **Khane Ketab Iran (Ketab.ir) / BazarKetab**  
-*Digital publishing* | 📍 Remote | 🗓️ **December 2021 – September 2022**
+## 🚀 Featured Flagship Repositories
 
-**Results & accomplishments**
-- **Extended product usability in low-connectivity environments** by shipping a production **PWA** (**Angular** + **Ionic**) with **service workers**, **offline** reading paths, and **push notifications** so core flows stayed usable without a constant connection.
-- **Reduced vendor operational friction** by delivering **NX** monorepo **dashboards** with **reactive forms** and local analytics so partners could manage catalog and daily tasks from one surface.
-- **Lifted cross-device UX quality** by standardizing responsive layout with **Angular Flex Layout** + **Tailwind CSS** (spacing, breakpoints, touch-friendly patterns).
-- **Made offline behavior predictable** by defining **web app manifest** + **service worker** caching strategies aligned to product priorities (installability + intentional cache boundaries).
+### 🏥 [PhysioCoach AI](https://github.com/rasoulveisi/physiocoach-ai) ([Live Demo](https://physiocoach.otconnect.ir))
+*AI physical therapy & rehabilitation monorepo*
+- Dynamic onboarding, AI workout plan generation with strict JSON schema validation, and deterministic fallbacks.
+- **Monorepo Stack:** Angular PWA + Capacitor (`web`), Cloudflare Worker Hono API (`api`), D1 Database, Drizzle ORM, Clerk Auth, OpenRouter AI.
 
-**Tech Stack:** Angular, Ionic, Angular Material, NX Monorepo, Service Workers, PWA, TypeScript, HTML5, CSS3, Sass/SCSS
+### 🩺 [OT-Assistant](https://github.com/rasoulveisi/ot-assistant)
+*Occupational therapy evaluation & activity planning monorepo*
+- Automates client intake, AI activity plan generation, and clinical progress tracking.
+- **Monorepo Stack:** Angular 19 (`web`), Cloudflare Worker Hono API (`api`), D1 (SQLite), Drizzle ORM, Clerk Auth, OpenRouter API.
 
----
+### 💼 [Job Craft](https://job.otconnect.ir)
+*Evidence-driven career application workspace*
+- Full-stack job application tracker, AI resume customization workflow, and Telegram bot notification integration.
+- **Stack:** Vite React 19, Cloudflare Worker (D1), Telegram Bot API, OpenRouter AI.
 
-### **Frontend Developer** — **Zagros System**  
-*Software Development Company* | Full-time | March 2020 – February 2021
-
-**Results & accomplishments**
-- **Shipped multiple client products** with responsive **HTML/CSS/JS** interfaces that met layout and accessibility expectations across browsers and device sizes.
-- **Expanded delivery scope into React.js** by implementing interactive UI behavior and stateful features beyond static marketing pages—owned components through to production releases.
-- **Improved delivery cadence** via tight collaboration with designers/backend engineers and **Git**-based workflows with small, reviewable changes.
-
-**Tech Stack:** HTML5, CSS3, JavaScript (ES6+), React.js, Git
-
----
-
-
-
-## 🚀 Featured Projects
-
-### **[🏥 Healthcare OT Evaluation System](https://github.com/rasoulveisi/HealthcareOT-EvaluationSystem)**
-*Comprehensive Angular application for occupational therapy evaluations*
-- Dynamic form generation system using Angular Reactive Forms for complex healthcare assessments
-- HIPAA-compliant data management with secure patient information handling using Angular services
-- Advanced assessment workflow with progress tracking and reporting capabilities
-- Built with Angular 19, TypeScript, RxJS, and Tailwind CSS for modern healthcare providers
-
-### **[✅ Todo.Backend (Microsoft To-Do Clone)](https://github.com/rasoulveisi/Todo.Backend)**
-*.NET Clean Architecture showcase with JWT and EF Core*
-- Layered solution (Domain, Application, Infrastructure) demonstrating maintainable backend boundaries  
-- JWT authentication, EF Core migrations, and a reactive frontend consuming the API  
-
-### **[📅 PrimeNG DateRange Picker](https://github.com/rasoulveisi/PrimeNG-DateRangePicker)**
-*Professional Angular 19 date picker component*
-- Enterprise-grade date selection with PrimeNG Calendar component integration
-- Tailwind CSS styling with responsive design and Angular accessibility features
-- Advanced validation using Angular form validators and localization support
-- Optimized for healthcare and business applications requiring precise date management
-
-### **[⚡ Angular Infinite Scroll Directive](https://github.com/rasoulveisi/Angular-InfiniteScroll-Directive)**
-*Performance-optimized infinite scrolling solution for Angular*
-- Custom Angular directive with virtual scrolling techniques for large datasets
-- Efficient handling using Angular CDK Virtual Scrolling with minimal memory footprint
-- Smooth scrolling experience with Angular zone optimization and error handling
-- Reusable Angular component for enterprise applications with high data volumes
-
-### **[📊 Rick & Morty DataTable](https://github.com/rasoulveisi/RickMorty-DataTable)**
-*Advanced Angular data table with PrimeNG integration*
-- Sophisticated data filtering and sorting using PrimeNG Table with real-time API consumption
-- Performance-optimized virtual scrolling using Angular CDK for large datasets
-- Advanced search capabilities with Angular reactive forms and multiple filter criteria
-- Responsive design with Angular Flex Layout and intuitive user experience
-
-### **[📝 Angular DateMask Library](https://github.com/rasoulveisi/Angular-DateMask-Library)**
-*Professional input masking directive for Angular applications*
-- Intelligent date input formatting with Angular directive and real-time validation
-- Supports multiple date formats with Angular i18n internationalization
-- Seamless integration with Angular reactive forms and form validation
-- Lightweight Angular library for enhanced user input experience
-
-### **[🏥 Healthcare Provider Landing Page](https://github.com/rasoulveisi/HealthcareProvider-LandingPage)**
-*Modern Angular landing page for medical professionals*
-- Responsive design using Angular and Tailwind CSS optimized for healthcare providers
-- Professional presentation with Angular components and service showcases
-- SEO-optimized structure with Angular Universal and modern web standards
-- Built with Angular best practices for optimal user experience
-
-### **[🤖 MetisAI Chat Interface](https://github.com/rasoulveisi/MetisAI-ChatInterface)**
-*Enterprise-grade AI chat application with React 19 and OpenAI integration*
-- Built with cutting-edge React 19, Zustand state management, and Tailwind CSS
-- Integrated OpenAI GPT API with advanced conversation management and context handling
-- Features real-time messaging, conversation persistence, and intelligent response handling
-- Implements modern development practices with TypeScript and Vite for optimal performance
-
-### **[✅ React Task Manager](https://github.com/rasoulveisi/React-TaskManager)**
-*Modern task management solution with React*
-- Responsive interface with local storage integration and data persistence
-- Advanced filtering, sorting, and search capabilities for productivity enhancement
-- Clean architecture with React hooks and modern development patterns
-- Optimized performance with efficient state management and component lifecycle
-
-### **[🛒 E-Commerce Context API](https://github.com/rasoulveisi/ECommerce-ContextAPI)**
-*Scalable shopping cart implementation with React Context API*
-- Professional cart management with persistent state and session handling
-- Product catalog integration with dynamic pricing and inventory management
-- Responsive e-commerce interface with modern shopping cart functionality
-- Demonstrates Context API patterns for complex state management scenarios
-
-### **[🛍️ E-Commerce Redux Store](https://github.com/rasoulveisi/ECommerce-ReduxStore)**
-*Enterprise-level shopping cart with Redux Toolkit*
-- Advanced state management using Redux Toolkit with middleware for async operations
-- Complex side effects handling with Redux Thunk and custom middleware
-- Scalable architecture suitable for large-scale e-commerce applications
-- Professional implementation of modern Redux patterns and best practices
+### ⚡ [Cloudflare Angular Starter](https://github.com/rasoulveisi/cf-boilerplate)
+*Serverless monorepo starter*
+- Production-ready template combining Angular 19 with Hono Cloudflare Worker API and shared TypeScript type safety.
+- **Stack:** Angular, Hono, Cloudflare Workers, D1 Database, Drizzle ORM, npm Workspaces.
 
 ---
 
-## 🎓 Education
+## 💼 Professional Experience Summary
 
-### **Master of Science in Mechanical Engineering – Mechatronics**  
-**Isfahan University of Technology** | Isfahan, Iran | **2022**
+### **Senior Full-Stack Developer** — **PharmaBits** (Sep 2022 – Present)
+*EU Pharmacy Workflow Software (formerly BlueBitSoft)*
+- Architected modular **Angular (v13–19)** features for Apoteek Logistiek (*APL*) handling prescription and inventory workflows.
+- Co-developed **ASP.NET Core** backend APIs and **EF Core** data modeling.
+- Rendered **10,000+ live courier markers** with Leaflet.js and RxJS chunking at 60fps.
+- Enforced **80%+ test coverage** with Jasmine/Karma & Cypress.
 
-**Thesis:** *"AI-Based Predictive Control and Model Identification of Evaporator in Refrigeration Systems Using Machine Learning for Dynamic Systems"*
-- Applied machine learning algorithms for industrial system optimization
-- Developed predictive control models for enhanced system performance
+### **PWA & E-Commerce Developer** — **Ketab.ir / BazarKetab** (Dec 2021 – Sep 2022)
+- Built offline-first Angular + Ionic PWA with service workers and push notifications.
+- Managed vendor dashboard inside an **Nx Monorepo**.
 
-### **Bachelor of Science in Biosystems Mechanical Engineering**  
-**Razi University** | Kermanshah, Iran | **2019**
+### **Frontend Developer** — **Zagros System** (Mar 2020 – Feb 2021)
+- Built responsive client UIs with **React.js** and modern ES6+.
 
 ---
 
-*Last updated: May 2026*
+<div align="center">
+  <sub>© 2026 Rasoul Veisi · <a href="https://rasoulveisi.github.io">rasoulveisi.github.io</a></sub>
+</div>

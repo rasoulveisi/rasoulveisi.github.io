@@ -3,209 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rasoul Veisi — Senior Frontend / Full-Stack Engineer at PharmaBits: Angular, .NET Core, pharmacy workflow software. Yerevan, Armenia.">
-    <title>Rasoul Veisi - Resume</title>
+    <meta name="description" content="Rasoul Veisi — Senior Full-Stack Engineer (Angular Specialist, .NET & Cloudflare Workers). Yerevan, Armenia.">
+    <meta name="keywords" content="Rasoul Veisi, Senior Full-Stack Engineer, Angular Developer, .NET Core, Cloudflare Workers, RxJS, NgRx, TypeScript">
+    <meta name="author" content="Rasoul Veisi">
+    <title>Rasoul Veisi — Senior Full-Stack Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#1e3a8a',
+                        accent: '#1d4ed8',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        @media print {
+            body {
+                padding: 0 !important;
+                margin: 0 !important;
+                color: #000 !important;
+                background: #fff !important;
+                font-size: 11pt;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+            a {
+                text-decoration: none !important;
+                color: #1d4ed8 !important;
+            }
+            .shadow-sm, .shadow-md, .shadow-lg {
+                box-shadow: none !important;
+            }
+            .border-b {
+                border-bottom-color: #cbd5e1 !important;
+            }
+        }
+    </style>
 </head>
-<body class="font-sans leading-relaxed max-w-4xl mx-auto p-5 text-gray-800">
-    <div class="border-b-2 border-indigo-600 pb-5 mb-8">
-        <div class="flex flex-col md:flex-row items-center justify-center gap-6">
-            <!-- Profile Picture -->
-            <div class="flex-shrink-0">
-                <div class="w-32 h-32 rounded-full border-4 border-indigo-600 overflow-hidden bg-gray-100 flex items-center justify-center">
-                    <img id="profile-pic" src="https://raw.githubusercontent.com/rasoulveisi/rasoulveisi.github.io/refs/heads/main/profile.jpg" alt="Rasoul Veisi Profile Picture" class="w-full h-full object-cover">
-                </div>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed min-h-screen">
+
+    <div class="max-w-4xl mx-auto my-8 bg-white p-8 md:p-12 shadow-sm rounded-xl border border-gray-100 print:border-none print:shadow-none print:m-0 print:p-0">
+        
+        <!-- Header -->
+        <header class="border-b border-gray-200 pb-6 mb-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 tracking-tight uppercase mb-2">Rasoul Veisi</h1>
+            <p class="text-xl font-semibold text-blue-700 mb-4">Senior Full-Stack Engineer <span class="text-gray-500 font-normal">| Angular Specialist · .NET &amp; Cloudflare Workers</span></p>
+            
+            <div class="flex flex-wrap justify-center items-center gap-4 text-sm text-gray-600 mb-3">
+                <span class="flex items-center gap-1">📍 Yerevan, Armenia</span>
+                <span class="text-gray-300">|</span>
+                <a href="mailto:rasoulveisidev@gmail.com" class="text-blue-700 hover:underline">✉️ rasoulveisidev@gmail.com</a>
+                <span class="text-gray-300">|</span>
+                <span>📞 +374-98089113</span>
             </div>
             
-            <!-- Name and Contact Info -->
-            <div class="text-center">
-                <h1 class="text-4xl md:text-5xl text-indigo-600 font-bold uppercase tracking-wider mb-0">Rasoul Veisi</h1>
-                <p class="text-lg md:text-xl text-gray-600 mt-3 mb-0 max-w-xl mx-auto">Senior Frontend Developer | Full-Stack Engineer (.NET &amp; Angular/React)</p>
-                <div class="flex justify-center flex-wrap gap-5 mt-4 text-sm text-gray-500">
-                    <div class="flex items-center gap-1">📍 Yerevan, Armenia</div>
-                    <div class="flex items-center gap-1">✉️ rasoulveisidev@gmail.com</div>
-                    <div class="flex items-center gap-1">📞 +374-98089113</div>
+            <div class="flex flex-wrap justify-center items-center gap-4 text-sm font-medium">
+                <a href="https://rasoulveisi.github.io" target="_blank" class="text-blue-700 hover:text-blue-900 hover:underline">🌐 Portfolio Site</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://www.linkedin.com/in/rasoulveisi" target="_blank" class="text-blue-700 hover:text-blue-900 hover:underline">💼 LinkedIn</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://github.com/rasoulveisi" target="_blank" class="text-blue-700 hover:text-blue-900 hover:underline">👨‍💻 GitHub</a>
+                <span class="text-gray-300 no-print">|</span>
+                <a href="Rasoul Veisi.pdf" target="_blank" class="no-print inline-flex items-center gap-1 bg-blue-700 text-white px-3 py-1 rounded hover:bg-blue-800 transition-colors">📄 Download PDF CV</a>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold text-blue-900 uppercase tracking-wider border-b-2 border-blue-900 pb-1 mb-3">Professional Summary</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Senior Full-Stack Engineer with <strong>5+ years</strong> of enterprise software development experience across EU healthcare logistics, digital publishing, and AI platform solutions. Specialized in building high-scale, resilient frontend systems using <strong>Angular (v13–19)</strong>, <strong>RxJS</strong>, <strong>NgRx</strong>, and <strong>Nx monorepos</strong>, coupled with modern backend engineering in <strong>.NET 8/9</strong> (ASP.NET Core, EF Core) and serverless <strong>Cloudflare Workers</strong> (Hono, D1 SQLite, Drizzle ORM). Proven track record of delivering real-time geospatial UIs handling 10,000+ active map markers, maintaining 80%+ test coverage (Cypress, Jasmine/Karma), and integrating agentic AI development workflows (Cursor, Claude Code, Codex, MCP).
+            </p>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold text-blue-900 uppercase tracking-wider border-b-2 border-blue-900 pb-1 mb-3">Technical Skills</h2>
+            <div class="space-y-2 text-sm text-gray-700">
+                <p><strong>Frontend Engineering:</strong> Angular 13–19 (Expert Depth), RxJS, NgRx, Standalone Components, Micro-Frontends, React.js, Next.js, Ionic/Capacitor, Leaflet.js, Tailwind CSS, PrimeNG, Angular Material, Sass/SCSS.</p>
+                <p><strong>Backend &amp; Cloud Services:</strong> .NET 8/9, ASP.NET Core, C#, EF Core (Code First), SQL Server, Cloudflare Workers, Hono, D1 (SQLite), Drizzle ORM, RESTful APIs, JWT Authentication, OpenRouter AI, Clerk Auth.</p>
+                <p><strong>Architecture &amp; Quality:</strong> Nx Monorepos, pnpm Workspaces, Clean Architecture, CQRS, SOLID Principles, Module Federation, Jasmine/Karma, Cypress (E2E), MS Test, CI/CD Pipelines, Docker.</p>
+                <p><strong>AI &amp; Productivity Tooling:</strong> Cursor, Claude Code, Codex, Model Context Protocol (MCP), Agentic Workflows, Automated Code Review &amp; Test Scaffolding.</p>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold text-blue-900 uppercase tracking-wider border-b-2 border-blue-900 pb-1 mb-4">Work Experience</h2>
+
+            <!-- PharmaBits -->
+            <div class="mb-6">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-1">
+                    <h3 class="text-lg font-bold text-gray-900">Senior Full-Stack Developer</h3>
+                    <span class="text-sm font-semibold text-gray-500 bg-gray-100 px-2.5 py-0.5 rounded">Sep 2022 – Present</span>
                 </div>
-                <div class="flex justify-center flex-wrap gap-5 mt-2 text-sm">
-                    <a href="https://rasoulveisi.github.io/" class="text-indigo-600 hover:text-indigo-800 transition-colors">🌐 Portfolio</a>
-                    <a href="https://www.linkedin.com/in/rasoulveisi" class="text-indigo-600 hover:text-indigo-800 transition-colors">💼 LinkedIn</a>
-                    <a href="https://github.com/rasoulveisi" class="text-indigo-600 hover:text-indigo-800 transition-colors">👨‍💻 GitHub</a>
+                <div class="flex justify-between items-center text-sm font-semibold text-blue-700 mb-2">
+                    <span>PharmaBits — EU Pharmacy Logistics &amp; Workflow Software (formerly BlueBitSoft)</span>
+                    <span class="text-gray-500 font-normal">Yerevan, Armenia / Remote</span>
+                </div>
+                <ul class="list-disc list-outside ml-5 space-y-1.5 text-sm text-gray-700">
+                    <li><strong>Angular Architecture Leadership:</strong> Lead frontend engineer for core pharmacy logistics software (<em>Apoteek Logistiek</em> / APL), architecting RxJS data streams, NgRx state management, and standalone components across high-volume prescription and inventory systems.</li>
+                    <li><strong>Full-Stack .NET Expansion:</strong> Extended engineering scope into backend microservices across ASP.NET Core and EF Core, developing C# REST APIs, data modeling, and shared NuGet packages for regulated healthcare workflows.</li>
+                    <li><strong>High-Scale Geospatial UI:</strong> Engineered real-time courier tracking engine using Leaflet.js and RxJS chunking, rendering 10,000+ active map markers at sub-60fps smoothness on low-spec hardware.</li>
+                    <li><strong>Automated Test Coverage:</strong> Enforced 80%+ automated test coverage across critical frontend modules with Jasmine/Karma and Cypress, eliminating regression defects during major Angular upgrades (v13 to v19).</li>
+                    <li><strong>AI-Driven Velocity:</strong> Integrated agentic AI tools (Cursor, Claude Code, custom MCP server scripts) into daily engineering routines for rapid API contract validation, refactoring, and test generation.</li>
+                </ul>
+            </div>
+
+            <!-- Ketab.ir -->
+            <div class="mb-6">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-1">
+                    <h3 class="text-lg font-bold text-gray-900">PWA &amp; E-Commerce Developer</h3>
+                    <span class="text-sm font-semibold text-gray-500 bg-gray-100 px-2.5 py-0.5 rounded">Dec 2021 – Sep 2022</span>
+                </div>
+                <div class="flex justify-between items-center text-sm font-semibold text-blue-700 mb-2">
+                    <span>Ketab.ir / BazarKetab — Digital Publishing Marketplace</span>
+                    <span class="text-gray-500 font-normal">Tehran, Iran</span>
+                </div>
+                <ul class="list-disc list-outside ml-5 space-y-1.5 text-sm text-gray-700">
+                    <li><strong>Offline-First PWA:</strong> Built offline-first Angular + Ionic Progressive Web Application with Service Workers, background sync, and push notifications for digital book marketplace.</li>
+                    <li><strong>Monorepo Vendor Tooling:</strong> Developed high-throughput vendor dashboard inside an Nx Monorepo for real-time catalog management, inventory tracking, and sales analytics.</li>
+                </ul>
+            </div>
+
+            <!-- Zagros System -->
+            <div class="mb-6">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-1">
+                    <h3 class="text-lg font-bold text-gray-900">Frontend Developer</h3>
+                    <span class="text-sm font-semibold text-gray-500 bg-gray-100 px-2.5 py-0.5 rounded">Mar 2020 – Feb 2021</span>
+                </div>
+                <div class="flex justify-between items-center text-sm font-semibold text-blue-700 mb-2">
+                    <span>Zagros System — Software House &amp; Agency</span>
+                    <span class="text-gray-500 font-normal">Tehran, Iran</span>
+                </div>
+                <ul class="list-disc list-outside ml-5 space-y-1.5 text-sm text-gray-700">
+                    <li><strong>React &amp; Client Web Apps:</strong> Developed responsive client-facing applications using React.js and modern ES6+ JavaScript, working directly with client stakeholders in an agile delivery model.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Featured Full-Stack Projects -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold text-blue-900 uppercase tracking-wider border-b-2 border-blue-900 pb-1 mb-4">Featured Full-Stack Projects</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 rounded-lg border border-gray-200 bg-gray-50/50 print:bg-transparent print:border-gray-300">
+                    <h3 class="font-bold text-gray-900 flex justify-between items-center">
+                        PhysioCoach AI
+                        <a href="https://physiocoach.otconnect.ir" target="_blank" class="text-xs text-blue-700 hover:underline">physiocoach.otconnect.ir ↗</a>
+                    </h3>
+                    <p class="text-xs text-gray-600 mt-1">Cross-platform AI physical therapy platform: dynamic onboarding, AI workout plans, JSON schema validation, and deterministic fallbacks.</p>
+                    <p class="text-xs font-semibold text-blue-800 mt-2">Stack: Angular PWA + Capacitor, Hono Worker, D1 SQLite, Drizzle ORM, Clerk, OpenRouter</p>
+                </div>
+
+                <div class="p-4 rounded-lg border border-gray-200 bg-gray-50/50 print:bg-transparent print:border-gray-300">
+                    <h3 class="font-bold text-gray-900 flex justify-between items-center">
+                        OT-Assistant
+                        <a href="https://github.com/rasoulveisi/ot-assistant" target="_blank" class="text-xs text-blue-700 hover:underline">GitHub Repo ↗</a>
+                    </h3>
+                    <p class="text-xs text-gray-600 mt-1">Occupational therapy evaluation platform: automated client intake, AI activity plan generation, and clinical progress tracking.</p>
+                    <p class="text-xs font-semibold text-blue-800 mt-2">Stack: Angular 19 (PrimeNG), Cloudflare Worker (Hono), D1 SQLite, Drizzle, Clerk</p>
+                </div>
+
+                <div class="p-4 rounded-lg border border-gray-200 bg-gray-50/50 print:bg-transparent print:border-gray-300">
+                    <h3 class="font-bold text-gray-900 flex justify-between items-center">
+                        Job Craft
+                        <a href="https://job.otconnect.ir" target="_blank" class="text-xs text-blue-700 hover:underline">job.otconnect.ir ↗</a>
+                    </h3>
+                    <p class="text-xs text-gray-600 mt-1">Evidence-driven job tracker workspace: application status tracking, AI resume customization, and Telegram bot updates.</p>
+                    <p class="text-xs font-semibold text-blue-800 mt-2">Stack: Vite React 19, Cloudflare Worker (D1), Telegram Bot API, OpenRouter AI</p>
+                </div>
+
+                <div class="p-4 rounded-lg border border-gray-200 bg-gray-50/50 print:bg-transparent print:border-gray-300">
+                    <h3 class="font-bold text-gray-900 flex justify-between items-center">
+                        Cloudflare Angular Starter
+                        <a href="https://github.com/rasoulveisi/cf-boilerplate" target="_blank" class="text-xs text-blue-700 hover:underline">GitHub Repo ↗</a>
+                    </h3>
+                    <p class="text-xs text-gray-600 mt-1">Serverless monorepo starter: Angular frontend paired with Hono Cloudflare Worker API and shared end-to-end TypeScript types.</p>
+                    <p class="text-xs font-semibold text-blue-800 mt-2">Stack: Angular, Hono Worker, D1 SQLite, Drizzle ORM, pnpm Workspaces</p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-4">
+            <h2 class="text-xl font-bold text-blue-900 uppercase tracking-wider border-b-2 border-blue-900 pb-1 mb-3">Education</h2>
+            <div class="space-y-2 text-sm text-gray-700">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <strong class="text-gray-900">M.Sc. Mechanical Engineering (Mechatronics)</strong> — Isfahan University of Technology
+                        <p class="text-xs text-gray-500 italic mt-0.5">Thesis: AI-Based Predictive Control using Machine Learning for Dynamic Systems</p>
+                    </div>
+                    <span class="text-gray-500 text-xs font-semibold">2019 – 2022</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <strong class="text-gray-900">B.Sc. Biosystems Mechanical Engineering</strong> — Razi University
+                    </div>
+                    <span class="text-gray-500 text-xs font-semibold">2015 – 2019</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-4 border-t border-gray-200 text-center text-xs text-gray-400 no-print">
+            <p>© 2026 Rasoul Veisi. Built with semantic HTML5 &amp; Tailwind CSS. Hosted on GitHub Pages.</p>
+        </footer>
+
     </div>
 
-    <section class="mb-8">
-        <h2 class="text-2xl font-bold text-indigo-600 border-b border-gray-300 pb-2 mb-4">Professional Summary</h2>
-        <p class="text-gray-600 leading-relaxed">
-            <strong>Senior Frontend / Full-Stack Engineer</strong> with <strong>5+ years</strong> delivering enterprise web apps in <strong>healthcare</strong> and <strong>e-commerce</strong>. At <strong>PharmaBits</strong> (pharmacy workflow software for European markets), primary depth in <strong>Angular</strong> (v13–19), <strong>RxJS</strong>, and <strong>NgRx</strong>, with increasing hands-on work on <strong>ASP.NET Core</strong>, <strong>EF Core</strong>, and <strong>Clean Architecture</strong>. Helps set the technical bar for frontend delivery—merge readiness, reviews, and conventions—while collaborating directly on backend implementations (not a formal team-lead role). Ships performant, well-tested UIs and works across the stack with SOLID, pragmatic architecture, and strong collaboration habits.
-        </p>
-    </section>
-
-    <section class="mb-8">
-        <h2 class="text-2xl font-bold text-indigo-600 border-b border-gray-300 pb-2 mb-4">Work Experience</h2>
-        
-        <div class="mb-6">
-            <div class="flex justify-between items-start mb-2">
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-800">Senior Frontend / Full-Stack Developer</h3>
-                    <p class="text-indigo-600 font-medium"><a href="https://www.pharmabits.de/" class="hover:text-indigo-800 transition-colors">PharmaBits</a></p>
-                    <p class="text-sm text-gray-500">Pharmacy workflow software (EU)</p>
-                    <p class="text-xs text-gray-400 mt-0.5">Previously branded as BlueBitSoft — same team and products.</p>
-                </div>
-                <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded shrink-0 ml-2">Sep 2022 – Present</span>
-            </div>
-            
-            <h4 class="font-semibold text-gray-800 mb-2">Apoteek Logistiek (APL)</h4>
-            <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4 text-sm mb-3">
-                <li>Delivered modular Angular features for <strong>Apoteek Logistiek</strong> inventory and prescription flows using <strong>NgRx</strong>, <strong>standalone components</strong>, and lazy-loaded architecture.</li>
-                <li>Collaborated on <strong>ASP.NET Core</strong> implementations—features, endpoints, and modeling—not only UI consumption; repository-style data access for regulated pharmacy workflows.</li>
-                <li>Owned <strong>merge workflow and technical consistency</strong> for frontend projects: reviews, integration gates, and shared conventions (individual-contributor scope; not a people-manager or formal team lead).</li>
-                <li>Improved live operations tooling by scaling <strong>Leaflet.js</strong> maps to <strong>10,000+</strong> concurrent markers via reactive <strong>RxJS</strong> chunking and efficient update strategies.</li>
-                <li>Drove quality with <strong>300+</strong> unit and E2E tests (Jasmine/Karma, Cypress), contributing to <strong>80%+</strong> coverage targets in critical modules.</li>
-            </ul>
-            
-            <p class="text-sm text-gray-600 mt-2"><strong>Technologies:</strong> Angular 13–19, RxJS, NgRx, standalone components, ASP.NET Core, EF Core patterns, Leaflet.js, Cypress, Jasmine, Karma, REST API</p>
-        </div>
-
-        <div class="mb-6">
-            <div class="flex justify-between items-start mb-2">
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-800">PWA &amp; E-Commerce Developer</h3>
-                    <p class="text-indigo-600 font-medium"><a href="https://ketab.ir/" class="hover:text-indigo-800 transition-colors">Ketab.ir</a> / <a href="https://bazarketab.ir/" class="hover:text-indigo-800 transition-colors">BazarKetab</a></p>
-                    <p class="text-sm text-gray-500">Digital Publishing</p>
-                </div>
-                <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded shrink-0 ml-2">Dec 2021 – Sep 2022</span>
-            </div>
-            
-            <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
-                <li>Shipped an <strong>Angular + Ionic</strong> PWA for a publishing marketplace—<strong>offline sync</strong>, <strong>service workers</strong>, and <strong>push notifications</strong>.</li>
-                <li>Maintained a multi-app <strong>NX Monorepo</strong> and a vendor-facing dashboard to simplify catalog and inventory maintenance at scale.</li>
-            </ul>
-            
-            <p class="text-sm text-gray-600 mt-2"><strong>Technologies:</strong> Angular, Ionic, PWA, NX Monorepo, TypeScript, Service Workers</p>
-        </div>
-
-        <div class="mb-6">
-            <div class="flex justify-between items-start mb-2">
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-800">Frontend Developer</h3>
-                    <p class="text-indigo-600 font-medium">Zagros System</p>
-                    <p class="text-sm text-gray-500">Software House</p>
-                </div>
-                <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded shrink-0 ml-2">Mar 2020 – Feb 2021</span>
-            </div>
-            
-            <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
-                <li>Built responsive marketing and product UIs with <strong>React.js</strong> and modern <strong>JavaScript (ES6+)</strong>.</li>
-                <li>Collaborated in a software-house setting across multiple client engagements and reusable UI patterns.</li>
-            </ul>
-            
-            <p class="text-sm text-gray-600 mt-2"><strong>Technologies:</strong> React.js, JavaScript (ES6+), HTML5, CSS3, Git</p>
-        </div>
-    </section>
-
-    <section class="mb-8">
-        <h2 class="text-2xl font-bold text-indigo-600 border-b border-gray-300 pb-2 mb-4">Technical Skills</h2>
-        
-        <div class="space-y-6">
-            <div>
-                <h3 class="font-semibold text-gray-800 mb-2">Frontend</h3>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">Frameworks:</strong> Angular 13–19 (primary), React.js, Next.js, Ionic.</p>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">State:</strong> RxJS (Advanced), NgRx, Zustand, Redux Toolkit, Context API.</p>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">Architecture:</strong> NX Monorepo, micro-frontends (Module Federation), standalone components, lazy loading.</p>
-                <p class="text-gray-600 text-sm"><strong class="text-gray-700">Styling &amp; UI:</strong> Tailwind CSS, Sass/SCSS, Angular Material, PrimeNG.</p>
-            </div>
-
-            <div>
-                <h3 class="font-semibold text-gray-800 mb-2">Backend</h3>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">Core:</strong> .NET 8/9, ASP.NET Core, C#.</p>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">ORM &amp; data:</strong> Entity Framework Core (Code First), SQL Server, repository pattern, unit of work.</p>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">Architecture:</strong> Clean Architecture, RESTful API design, JWT authentication, Identity Framework.</p>
-                <p class="text-gray-600 text-sm"><strong class="text-gray-700">Tools:</strong> Swagger/OpenAPI, Postman, Docker.</p>
-            </div>
-
-            <div>
-                <h3 class="font-semibold text-gray-800 mb-2">Testing &amp; DevOps</h3>
-                <p class="text-gray-600 text-sm mb-2"><strong class="text-gray-700">Testing:</strong> Cypress (E2E), Jasmine &amp; Karma (unit), MS Test.</p>
-                <p class="text-gray-600 text-sm"><strong class="text-gray-700">Environment:</strong> macOS (M4-optimized workflow), Git, CI/CD pipelines, Vite, Webpack.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="mb-8">
-        <h2 class="text-2xl font-bold text-indigo-600 border-b border-gray-300 pb-2 mb-4">Core Strengths</h2>
-        <ul class="list-disc list-inside text-gray-600 space-y-2 ml-4">
-            <li><strong class="text-gray-700">Engineering mindset:</strong> Applying M.Sc.-level mathematical modeling and system control logic to software architecture.</li>
-            <li><strong class="text-gray-700">Modern workflow:</strong> macOS-based development with a polished CLI/Git workflow and AI-assisted tooling for faster refactors, reviews, and test generation.</li>
-            <li><strong class="text-gray-700">Clean code:</strong> Strong commitment to SOLID, DRY, and maintainable design patterns.</li>
-        </ul>
-        <div class="flex justify-between max-w-md mt-4 pt-2 border-t border-gray-100">
-            <span class="text-gray-700 text-sm">English</span>
-            <span class="text-gray-500 text-sm">Professional proficiency</span>
-        </div>
-    </section>
-
-    <section class="mb-8">
-        <h2 class="text-2xl font-bold text-indigo-600 border-b border-gray-300 pb-2 mb-4">Education</h2>
-        
-        <div class="space-y-4">
-            <div class="flex justify-between items-start gap-4">
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-800">M.Sc. in Mechanical Engineering (Mechatronics)</h3>
-                    <p class="text-gray-600">Isfahan University of Technology</p>
-                    <p class="text-sm text-gray-500 mt-1"><strong>Thesis:</strong> AI-Based Predictive Control using Machine Learning for Dynamic Systems.</p>
-                </div>
-                <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded shrink-0">2022</span>
-            </div>
-            
-            <div class="flex justify-between items-start gap-4">
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-800">B.Sc. in Biosystems Mechanical Engineering</h3>
-                    <p class="text-gray-600">Razi University</p>
-                </div>
-                <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded shrink-0">2019</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="mb-8">
-        <h2 class="text-2xl font-bold text-indigo-600 border-b border-gray-300 pb-2 mb-4">Featured Full-Stack Projects</h2>
-        
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-                <h3 class="text-lg font-semibold text-gray-800 mb-2">Todo.Backend (Microsoft To-Do Clone)</h3>
-                <p class="text-gray-600 text-sm mb-3">A showcase of Clean Architecture in .NET Core with a decoupled Domain, Application, and Infrastructure structure. Features JWT authentication, EF Core migrations, and a reactive frontend.</p>
-                <div class="flex gap-3">
-                    <a href="https://github.com/rasoulveisi/Todo.Backend" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">GitHub</a>
-                </div>
-            </div>
-
-            <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-                <h3 class="text-lg font-semibold text-gray-800 mb-2">Healthcare OT Evaluation System</h3>
-                <p class="text-gray-600 text-sm mb-3">A HIPAA-compliant system for occupational therapy. Built with dynamic reactive forms in Angular 19 to handle complex medical assessments.</p>
-                <div class="flex gap-3">
-                    <a href="https://github.com/rasoulveisi/HealthcareOT-EvaluationSystem" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">GitHub</a>
-                    <a href="#" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">Live Demo (Coming Soon)</a>
-                </div>
-            </div>
-
-            <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow md:col-span-2">
-                <h3 class="text-lg font-semibold text-gray-800 mb-2">Additional Projects</h3>
-                <p class="text-gray-600 text-sm mb-3">Selected open-source work: Rick &amp; Morty DataTable, Angular Infinite Scroll Directive, PrimeNG DateRange Picker, MetisAI Chat Interface, E-Commerce Redux Store.</p>
-                <div class="flex flex-wrap gap-3">
-                    <a href="https://github.com/rasoulveisi/RickMorty-DataTable" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">Rick &amp; Morty</a>
-                    <a href="https://github.com/rasoulveisi/Angular-InfiniteScroll-Directive" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">Infinite Scroll</a>
-                    <a href="https://github.com/rasoulveisi/PrimeNG-DateRangePicker" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">DateRange Picker</a>
-                    <a href="https://github.com/rasoulveisi/MetisAI-ChatInterface" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">MetisAI</a>
-                    <a href="https://github.com/rasoulveisi/ECommerce-ReduxStore" class="text-indigo-600 hover:text-indigo-800 text-sm transition-colors">Redux Store</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="text-center mt-12 pt-8 border-t border-gray-200">
-        <p class="text-gray-500 text-sm">&copy; 2026 Rasoul Veisi. All rights reserved.</p>
-    </footer>
 </body>
 </html>
