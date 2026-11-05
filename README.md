@@ -1,114 +1,60 @@
 # Rasoul Veisi
 
 <div align="center">
-  <h3>Senior Full-Stack Engineer</h3>
-  <p><strong>Angular Specialist | ASP.NET Core Microservices & Cloudflare Workers</strong></p>
+  <h3>Full-Stack Engineer</h3>
+  <p><strong>Angular · TypeScript · C#/.NET · PostgreSQL</strong></p>
 
-  [![Website](https://img.shields.io/badge/Portfolio-rasoulveisi.github.io-1e3a8a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rasoulveisi.github.io)
+  [![Website](https://img.shields.io/badge/Portfolio-rasoulveisi.github.io-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rasoulveisi.github.io)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-rasoulveisi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rasoulveisi)
   [![Email](https://img.shields.io/badge/Email-rasoulveisidev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rasoulveisidev@gmail.com)
 </div>
 
 ---
 
-## ⚡ About Me
+## About Me
 
-I am a **Senior Full-Stack Engineer** with **5+ years of enterprise experience** building high-scale healthcare logistics software, digital publishing marketplaces, and serverless AI applications.
+Full-stack engineer with **5+ years** of professional experience, including **4 years** on pharmacy logistics and dispensing platforms used daily by pharmacists, pharmacy staff and dispatchers in the Netherlands. Promoted twice at Pharmabits, from Mid-Level Frontend Developer to Full-Stack Developer.
 
-- 🏆 **Domain Expertise:** Primary frontend architect at **PharmaBits** (EU pharmacy workflow software), building modular **Angular (v13–19)** applications with **NgRx**, **RxJS**, and **standalone components**.
-- 🛠️ **Full-Stack Capability:** Active collaborator on **.NET 8/9** ASP.NET Core microservices (EF Core, Clean Architecture) and **Cloudflare Workers** (Hono, D1 SQLite, Drizzle ORM).
-- 🗺️ **Geospatial & Performance:** Engineered real-time Leaflet.js tracking engine rendering **10,000+ live map markers** with RxJS chunking at sub-60fps smoothness.
-- 🧪 **Quality Discipline:** Maintained **80%+ automated test coverage** across high-risk modules with Jasmine, Karma, and Cypress (E2E).
-- 🤖 **Agentic AI Workflow:** Deep integration of modern AI tools (**Cursor**, **Claude Code**, **Codex**, **MCP**) for rapid API contract scaffolding, refactoring, and test generation.
+- **Frontend:** Angular (12–21), Signals, RxJS, Tailwind CSS, PrimeNG, Nx monorepos, PWA.
+- **Backend:** C#, ASP.NET Core, EF Core, MediatR, MassTransit with RabbitMQ, Hangfire, PostgreSQL.
+- **Delivery:** Docker, Kubernetes with Helm, GitLab CI/CD, Graylog, Sentry. I monitor 5+ live pharmacy applications in production.
+- **Highlights:** built a .NET service from the first commit, delivered a staged Angular 12-to-17 migration of a live application, and moved frontend delivery to a shared GitLab CI/CD pipeline.
 
----
-
-## 🏗️ Architecture & Stack Overview
-
-```mermaid
-flowchart TD
-    subgraph Client Layer ["Client Layer (Angular 19 & React 19)"]
-        UI1["Angular 19 PWA / Nx Monorepo\n(NgRx, RxJS, Standalone)"]
-        UI2["Vite React 19 App\n(Zustand / Redux Toolkit)"]
-        UI3["Leaflet.js Geospatial Engine\n(10,000+ Live Markers)"]
-    end
-
-    subgraph Backend Layer [".NET Microservices & Cloudflare Workers"]
-        NET[".NET 8/9 ASP.NET Core\n(Clean Architecture, EF Core)"]
-        CF["Cloudflare Worker APIs\n(Hono Framework, Drizzle ORM)"]
-    end
-
-    subgraph Data & Infra ["Data Stores & Cloud Infrastructure"]
-        SQL[("SQL Server / PostgreSQL")]
-        D1[("Cloudflare D1 (SQLite)")]
-        LLM["OpenRouter AI APIs\n(Claude, GPT-4o, Llama)"]
-    end
-
-    UI1 --> NET
-    UI1 --> CF
-    UI2 --> CF
-    UI3 --> NET
-
-    NET --> SQL
-    CF --> D1
-    CF --> LLM
-```
+Open to relocation to the Netherlands, the UK and the EU with employer visa sponsorship, or remote roles on European hours (UTC+4).
 
 ---
 
-## 🛠️ Tech Stack Matrix
+## Tech Stack
 
-| Category | Technologies & Tools |
+| Category | Technologies |
 |---|---|
-| **Frontend Core** | Angular 13–19, RxJS, NgRx, Standalone Components, React.js, Next.js, Ionic/Capacitor |
-| **Styling & UI** | Tailwind CSS, PrimeNG, Angular Material, Leaflet.js, Sass/SCSS, HTML5/CSS3 |
-| **Backend & APIs** | .NET 8/9, ASP.NET Core, C#, EF Core, Cloudflare Workers, Hono, Drizzle ORM, REST APIs |
-| **Databases & Auth** | SQL Server, Cloudflare D1 (SQLite), PostgreSQL, CouchDB, JWT, Clerk Auth |
-| **Architecture & Tools** | npm / pnpm Monorepos, Nx, Clean Architecture, Docker, Git, Webpack, Vite |
-| **Testing & Quality** | Jasmine, Karma, Cypress (E2E), MS Test |
-| **AI & Automation** | Cursor, Claude Code, Codex, Model Context Protocol (MCP), Agentic Workflows |
+| **Frontend** | Angular 12–21, TypeScript, RxJS, Signals, SCSS, Tailwind CSS, PrimeNG, Nx, Ionic, PWA |
+| **Backend & Data** | C#, ASP.NET Core, EF Core, MediatR, MassTransit/RabbitMQ, Hangfire, OpenAPI, PostgreSQL |
+| **Architecture** | Clean Architecture, CQRS, microservices, Micro-Frontends, BFF |
+| **Security** | XSS/CSRF/CSP protection, SSO, RBAC, 2FA |
+| **Testing** | xUnit, Testcontainers, Moq, Jasmine/Karma, Cypress, Playwright, Postman, SonarQube |
+| **Operations** | Docker, Kubernetes/Helm, GitLab CI/CD, Serilog, Graylog, Sentry |
+| **Working knowledge** | React, Node.js, Express.js, NestJS, Cloudflare Workers, Cloudflare D1 |
 
 ---
 
-## 🚀 Featured Flagship Repositories
+## Featured Projects
 
-### 🏥 [PhysioCoach AI](https://github.com/rasoulveisi/physiocoach-ai) ([Live Demo](https://physiocoach.otconnect.ir))
-*AI physical therapy & rehabilitation monorepo*
-- Dynamic onboarding, AI workout plan generation with strict JSON schema validation, and deterministic fallbacks.
-- **Monorepo Stack:** Angular PWA + Capacitor (`web`), Cloudflare Worker Hono API (`api`), D1 Database, Drizzle ORM, Clerk Auth, OpenRouter AI.
-
-### 🩺 [OT-Assistant](https://github.com/rasoulveisi/ot-assistant)
-*Occupational therapy evaluation & activity planning monorepo*
-- Automates client intake, AI activity plan generation, and clinical progress tracking.
-- **Monorepo Stack:** Angular 19 (`web`), Cloudflare Worker Hono API (`api`), D1 (SQLite), Drizzle ORM, Clerk Auth, OpenRouter API.
-
-### 💼 [Job Craft](https://job.otconnect.ir)
-*Evidence-driven career application workspace*
-- Full-stack job application tracker, AI resume customization workflow, and Telegram bot notification integration.
-- **Stack:** Vite React 19, Cloudflare Worker (D1), Telegram Bot API, OpenRouter AI.
-
-### ⚡ [Cloudflare Angular Starter](https://github.com/rasoulveisi/cf-boilerplate)
-*Serverless monorepo starter*
-- Production-ready template combining Angular 19 with Hono Cloudflare Worker API and shared TypeScript type safety.
-- **Stack:** Angular, Hono, Cloudflare Workers, D1 Database, Drizzle ORM, npm Workspaces.
+- **[Letterwise](https://github.com/rasoulveisi/letterwise)** — multi-script language learning platform. Angular 21, NestJS 11, Nx monorepo, Supabase (PostgreSQL).
+- **[OT-Assistant](https://github.com/rasoulveisi/ot-assistant)** — occupational-therapy planning workspace with role-based access and AI drafting. Angular 21, PrimeNG 21, Express.js 5 on Cloudflare Workers, D1, Clerk.
+- **[PhysioCoach AI](https://github.com/rasoulveisi/physiocoach-ai)** — workout planning platform with multi-stage LLM pipelines and Zod validation. React 19, Express.js 5 on Cloudflare Workers, PostgreSQL, Drizzle.
+- **Job Craft** — job-application assistant that tailors resumes with source-grounding checks. React 19, Cloudflare Workers, D1, OpenRouter.
 
 ---
 
-## 💼 Professional Experience Summary
+## Experience
 
-### **Senior Full-Stack Developer** — **PharmaBits** (Sep 2022 – Present)
-*EU Pharmacy Workflow Software (formerly BlueBitSoft)*
-- Architected modular **Angular (v13–19)** features for Apoteek Logistiek (*APL*) handling prescription and inventory workflows.
-- Co-developed **ASP.NET Core** backend APIs and **EF Core** data modeling.
-- Rendered **10,000+ live courier markers** with Leaflet.js and RxJS chunking at 60fps.
-- Enforced **80%+ test coverage** with Jasmine/Karma & Cypress.
+- **Full-Stack Developer — Pharmabits** (Sep 2022 – Present). Mid-Level Frontend → Senior Frontend (2023) → Full-Stack (Jul 2024).
+- **Frontend Developer — Ketab.ir / BazarKetab** (Dec 2021 – Sep 2022).
+- **Frontend Developer — Zagros System** (Mar 2020 – Feb 2021).
+- **Graduate Research Engineer — Isfahan University of Technology, with Danfoss** (2020 – 2022).
 
-### **PWA & E-Commerce Developer** — **Ketab.ir / BazarKetab** (Dec 2021 – Sep 2022)
-- Built offline-first Angular + Ionic PWA with service workers and push notifications.
-- Managed vendor dashboard inside an **Nx Monorepo**.
-
-### **Frontend Developer** — **Zagros System** (Mar 2020 – Feb 2021)
-- Built responsive client UIs with **React.js** and modern ES6+.
+Full CV: [rasoulveisi.github.io/resume.html](https://rasoulveisi.github.io/resume.html)
 
 ---
 

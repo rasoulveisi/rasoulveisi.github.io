@@ -1,4 +1,5 @@
 % Single-column ATS-Optimized Resume for Rasoul Veisi
+% Source of truth: Master_Resume.md. Keep this file in sync with it.
 \documentclass[a4paper,10pt]{article}
 \usepackage{geometry}
 \usepackage{xcolor}
@@ -11,7 +12,7 @@
 \setlength{\parskip}{3pt}
 
 % Color definitions
-\definecolor{primarycolor}{RGB}{30,58,138} % Navy Blue
+\definecolor{primarycolor}{RGB}{17,24,39}  % Ink
 \definecolor{textcolor}{RGB}{31,41,55}     % Dark Charcoal
 \definecolor{linkcolor}{RGB}{29,78,216}    % Royal Blue
 
@@ -26,10 +27,9 @@
   \textit{\color{primarycolor}#3} \hfill \textit{#4}\\%
 }
 \newcommand{\projectheader}[2]{%
-  \textbf{#1} \hfill \href{#2}{\footnotesize\color{linkcolor}#2}\\%
+  \textbf{#1} \hfill {\footnotesize\textit{#2}}\\%
 }
 
-% Configure hyperlinks
 \hypersetup{
     colorlinks=true,
     linkcolor=linkcolor,
@@ -37,88 +37,95 @@
     citecolor=linkcolor
 }
 
+\newenvironment{tightitems}{\begin{itemize}[leftmargin=12pt, itemsep=1pt, parsep=0pt, topsep=2pt]}{\end{itemize}}
+
 \begin{document}
 
 % Header
 \begin{center}
     {\huge\bfseries\color{primarycolor} RASOUL VEISI} \\[3pt]
-    {\large\bfseries Senior Full-Stack Engineer (Angular Specialist $\cdot$ .NET \& Cloudflare Workers)} \\[4pt]
-    Yerevan, Armenia $\bullet$ Email: \href{mailto:rasoulveisidev@gmail.com}{rasoulveisidev@gmail.com} $\bullet$ Phone: +374-98089113 \\
-    Portfolio: \href{https://rasoulveisi.github.io}{rasoulveisi.github.io} $\bullet$ LinkedIn: \href{https://www.linkedin.com/in/rasoulveisi}{linkedin.com/in/rasoulveisi} $\bullet$ GitHub: \href{https://github.com/rasoulveisi}{github.com/rasoulveisi}
+    {\large\bfseries Full-Stack Engineer $|$ Angular, TypeScript, C\#/.NET, PostgreSQL} \\[4pt]
+    Yerevan, Armenia $\bullet$ \href{mailto:rasoulveisidev@gmail.com}{rasoulveisidev@gmail.com} $\bullet$ +374-98089113 \\
+    Portfolio: \href{https://rasoulveisi.github.io}{rasoulveisi.github.io} $\bullet$ LinkedIn: \href{https://www.linkedin.com/in/rasoulveisi}{linkedin.com/in/rasoulveisi} $\bullet$ GitHub: \href{https://github.com/rasoulveisi}{github.com/rasoulveisi} \\[2pt]
+    {\small\textit{Open to relocation to the Netherlands, the UK and the EU with employer visa sponsorship (Highly Skilled Migrant / Skilled Worker). Also open to remote roles on European hours (UTC+4).}}
 \end{center}
 
-\vspace{2pt}
-
-% Professional Summary
 \sectionheader{Professional Summary}
-Senior Full-Stack Engineer with \textbf{5+ years} of experience building high-performance enterprise applications in healthcare logistics, digital publishing, and AI platform solutions. Deep expertise in \textbf{Angular (v13--19)}, \textbf{RxJS}, \textbf{NgRx}, and modular Nx monorepos, coupled with strong backend capabilities in \textbf{.NET 8/9} (ASP.NET Core, EF Core) and serverless \textbf{Cloudflare Workers} (Hono, D1 SQLite, Drizzle ORM). Proven track record of architecting real-time geospatial UI systems handling 10,000+ live markers, enforcing 80\%+ automated test coverage (Cypress, Jasmine/Karma), and leveraging agentic AI workflows (Cursor, Claude Code, Codex, MCP) to accelerate development velocity.
+Full-stack engineer with \textbf{5+ years} of professional experience building web applications, including \textbf{4 years} on pharmacy logistics and dispensing platforms used daily by pharmacists, pharmacy staff and dispatchers. Promoted twice at Pharmabits, from Mid-Level Frontend Developer to Full-Stack Developer. Builds Angular and TypeScript interfaces and C\#/ASP.NET Core services on PostgreSQL, and owns features from API contract design through deployment and production monitoring of 5+ live applications. Planned and delivered a staged Angular 12-to-17 migration of a live application, built a .NET service from the first commit, and moved frontend delivery to a shared GitLab CI/CD pipeline. Reviews code and mentors engineers across the stack.
 
-% Technical Skills
 \sectionheader{Technical Skills}
-\begin{description}[leftmargin=0pt, itemsep=2pt, topsep=0pt]
-    \item[\textbf{Frontend Engineering:}] Angular 13--19 (Expert), RxJS, NgRx, Standalone Components, Micro-Frontends, React.js, Next.js, Ionic/Capacitor, Tailwind CSS, PrimeNG, Angular Material, Leaflet.js.
-    \item[\textbf{Backend \& Cloud:}] .NET 8/9, ASP.NET Core, C\#, EF Core (Code First), SQL Server, Cloudflare Workers, Hono, D1 (SQLite), Drizzle ORM, RESTful APIs, JWT, OpenRouter AI, Clerk Auth.
-    \item[\textbf{Architecture \& Quality:}] npm/pnpm Monorepos, Nx, Clean Architecture, CQRS, SOLID, Jasmine/Karma, Cypress (E2E), MS Test, CI/CD pipelines, Docker.
-    \item[\textbf{AI \& Productivity Tooling:}] Cursor, Claude Code, Codex, Model Context Protocol (MCP), Agentic Workflows, Automated Code Review \& Test Scaffolding.
+\begin{description}[leftmargin=0pt, itemsep=1pt, topsep=0pt]
+    \item[Frontend:] Angular (12--21), TypeScript, JavaScript (ES6+), RxJS, Signals, HTML5, CSS3, SCSS/Sass, Tailwind CSS, PrimeNG, Nx monorepos, frontend architecture.
+    \item[Backend \& Data:] C\#, ASP.NET Core, EF Core, MediatR, MassTransit with RabbitMQ, Hangfire, FluentValidation, RESTful API design, OpenAPI, SQL, PostgreSQL.
+    \item[Angular Architecture:] Routing, route guards (CanActivate, CanMatch), HTTP interceptors, reactive and dynamic forms, component lifecycle, state management with Signals and RxJS.
+    \item[Web Security:] XSS prevention, CSRF protection, Content Security Policy (CSP), input sanitization, secure HTTP headers, SSO, RBAC, 2FA.
+    \item[Mobile \& Responsive:] Mobile-first design, Progressive Web Apps (PWA), Ionic, cross-browser compatibility.
+    \item[Architecture \& Patterns:] Clean Architecture, CQRS, microservices, Micro-Frontends, BFF, dependency injection, Repository pattern.
+    \item[Testing \& Quality:] xUnit, Testcontainers, Moq, Jasmine/Karma, Cypress, Playwright, Postman, SonarQube, automated visual regression tests, code reviews.
+    \item[Delivery \& Operations:] Docker, Kubernetes with Helm charts, GitLab CI/CD, Git, production deployments, Serilog, Graylog, Sentry.
+    \item[Performance:] Virtual scrolling, paginated data streams, client-side caching, RxJS debounce/throttle patterns, optimistic UI updates.
+    \item[Working Knowledge:] React, Node.js, Express.js, NestJS, Cloudflare Workers, SQLite/Cloudflare D1.
+    \item[Languages:] English, professional working proficiency (CEFR B2--C1).
 \end{description}
 
-% Work Experience
-\sectionheader{Work Experience}
+\sectionheader{Professional Experience}
 
-\jobheader{Senior Full-Stack Developer}{Sep 2022 -- Present}{PharmaBits (EU Pharmacy Logistics \& Workflow Software)}{Yerevan, Armenia / Remote}
-\begin{itemize}[leftmargin=12pt, itemsep=2pt, parsep=0pt, topsep=2pt]
-    \item \textbf{Angular Architecture Leadership:} Lead frontend engineer for core pharmacy logistics product (\textit{Apoteek Logistiek} / APL), architecting RxJS data streams, NgRx state management, and standalone components across high-volume prescription and inventory systems.
-    \item \textbf{Full-Stack .NET Expansion:} Extended engineering scope into backend microservices across ASP.NET Core and EF Core, developing C\# REST APIs, data modeling, and shared NuGet packages for regulated healthcare workflows.
-    \item \textbf{High-Scale Geospatial UI:} Engineered real-time courier tracking engine using Leaflet.js and RxJS chunking, rendering 10,000+ active map markers at sub-60fps smoothness on low-spec hardware.
-    \item \textbf{Automated Test Coverage:} Enforced 80\%+ automated test coverage across critical frontend modules with Jasmine/Karma and Cypress, eliminating regression defects during major Angular upgrades (v13 to v19).
-    \item \textbf{AI-Driven Velocity:} Integrated agentic AI tools (Cursor, Claude Code, custom MCP server scripts) into daily engineering routines for rapid API contract validation, refactoring, and test generation.
-\end{itemize}
-
-\vspace{4pt}
-
-\jobheader{PWA \& E-Commerce Developer}{Dec 2021 -- Sep 2022}{Ketab.ir / BazarKetab (Digital Publishing Marketplace)}{Tehran, Iran}
-\begin{itemize}[leftmargin=12pt, itemsep=2pt, parsep=0pt, topsep=2pt]
-    \item \textbf{Offline-First PWA:} Built offline-first Angular + Ionic Progressive Web Application with Service Workers, background sync, and push notifications for digital book marketplace.
-    \item \textbf{Monorepo Vendor Tooling:} Developed high-throughput vendor dashboard inside an Nx Monorepo for real-time catalog management, inventory tracking, and sales analytics.
-\end{itemize}
-
-\vspace{4pt}
-
-\jobheader{Frontend Developer}{Mar 2020 -- Feb 2021}{Zagros System (Software House \& Agency)}{Tehran, Iran}
-\begin{itemize}[leftmargin=12pt, itemsep=2pt, parsep=0pt, topsep=2pt]
-    \item \textbf{React \& Client Web Apps:} Developed responsive client-facing applications using React.js and modern ES6+ JavaScript, working directly with client stakeholders in an agile delivery model.
-\end{itemize}
-
-% Featured Full-Stack Projects
-\sectionheader{Featured Full-Stack Projects}
-
-\projectheader{PhysioCoach AI -- AI Physical Therapy Monorepo}{https://physiocoach.otconnect.ir}
-Cross-platform physical therapy coaching monorepo. Features dynamic onboarding, AI workout plan generation with JSON schema validation, and deterministic fallbacks. \\
-\textbf{Monorepo Stack:} Angular PWA + Capacitor (\textit{web}), Hono Cloudflare Worker API (\textit{api}), D1 Database, Drizzle ORM, Clerk Auth, OpenRouter AI, npm Workspaces.
+\jobheader{Full-Stack Developer}{Sep 2022 -- Present}{Pharmabits (pharmacy logistics and dispensing platform, Netherlands)}{Yerevan, Armenia / Remote}
+{\small\textit{Mid-Level Frontend Developer (Sep 2022 -- 2023) $\rightarrow$ Senior Frontend Developer (2023 -- Jul 2024) $\rightarrow$ Full-Stack Developer (Jul 2024 -- Present)}}
+\begin{tightitems}
+    \item Built the Recipe Status .NET service from the first commit, with a PostgreSQL schema and startup migrations, MassTransit/RabbitMQ consumers, Hangfire-scheduled link expiry, health checks and OpenAPI documentation.
+    \item Designed the Recipe Status overview API contract and built the patient-facing overview in the Angular client page, so frontend and backend could be developed in parallel.
+    \item Made patient notifications reliable in the communication service with idempotent email-result handling and per-day message deduplication, covered by unit and integration tests.
+    \item Extended the logistics service with stock-value reports, a medicine sync endpoint, and 409 Conflict handling for concurrent stock picks using EF Core concurrency checks.
+    \item Wrote background jobs that encrypt sensitive patient identifiers in PostgreSQL, using advisory locks and a tested rollback path.
+    \item Connected medication-machine workflows to the logistics services over ASP.NET Core, with barcode normalization, versioned shared contract packages and correlation-ID logging across services.
+    \item Integrated third-party prescription ingestion across ASP.NET Core microservices and Angular interfaces, so external prescriptions enter pharmacy processing workflows automatically.
+    \item Reduced non-actionable 5xx alerts by tracing user journeys through Angular interfaces and .NET services with Graylog and Sentry, then fixing the causes so real failures stood out.
+    \item Planned and delivered a staged Angular 12-to-17 migration of a live application, adding XSS, CSRF and CSP protections, route guards and HTTP interceptors, with a route-by-route regression test plan.
+    \item Kept large medication catalog and prescription views responsive with paginated API queries, client-side caching, debounced search streams and virtual scrolling.
+    \item Delivered a mobile-first handheld PWA for pharmacy cabinet operations using Angular Signals, with hardware barcode and prescription scanning and two-factor authentication.
+    \item Implemented keyboard shortcuts and QR-code scanning across high-frequency pharmacy interfaces, and improved Leaflet-based delivery routing for dispatchers.
+    \item Migrated the logistics frontend to Tailwind CSS with AI-assisted development and custom CLI tooling, validating every change with automated visual regression tests and manual checks.
+    \item Moved frontend applications to a shared GitLab CI/CD pipeline with Docker images, Helm charts and staged deployments, and monitored 5+ live pharmacy applications in production.
+    \item Reviewed frontend changes and mentored backend-focused engineers on Angular architecture, reactive patterns and component conventions.
+\end{tightitems}
 
 \vspace{3pt}
-
-\projectheader{OT-Assistant -- Occupational Therapy Monorepo}{https://github.com/rasoulveisi/ot-assistant}
-Comprehensive OT assistant monorepo automating client intake, AI-driven daily activity plan generation, and clinical progress tracking. \\
-\textbf{Monorepo Stack:} Angular 19 (\textit{web}), Hono Cloudflare Worker API (\textit{api}), D1 (SQLite), Drizzle ORM, Clerk Auth, OpenRouter API, npm Workspaces.
-
-\vspace{3pt}
-
-\projectheader{Job Craft -- Evidence-Driven Career \& Application Workspace}{https://job.otconnect.ir}
-Full-stack job tracking workspace storing applications, status updates, AI resume customization workflows, and Telegram notifications. \\
-\textbf{Tech Stack:} Vite React 19, Cloudflare Worker (D1), Telegram Bot API, OpenRouter AI.
+\jobheader{Frontend Developer}{Dec 2021 -- Sep 2022}{Ketab.ir / BazarKetab (digital publishing marketplace)}{Tehran, Iran}
+\begin{tightitems}
+    \item Extended an existing Angular desktop application to mobile with Ionic and PWA, refactoring the shared codebase with a mobile-first SCSS approach while preserving desktop functionality.
+    \item Integrated SSO authentication, route guards, profile management, and bookstore search and filters across desktop and mobile.
+    \item Built a dedicated vendor application from scratch, enabling vendors to add inventory and manage discounts.
+    \item Built shared UI components and translation libraries in an existing Nx monorepo, and set styling conventions for mixed-direction (RTL/LTR) interfaces.
+\end{tightitems}
 
 \vspace{3pt}
+\jobheader{Frontend Developer}{Mar 2020 -- Feb 2021}{Zagros System (software house and digital agency)}{Tehran, Iran}
+\begin{tightitems}
+    \item Built responsive React client applications in an Agile team, integrated backend REST APIs, and contributed to frontend asset-bundling optimisation.
+\end{tightitems}
 
-\projectheader{Cloudflare Angular Starter -- Serverless Monorepo Template}{https://github.com/rasoulveisi/cf-boilerplate}
-Production-ready boilerplate for Angular frontends backed by Cloudflare Worker APIs with end-to-end TypeScript type safety. \\
-\textbf{Tech Stack:} Angular, Hono, Cloudflare Workers, D1 Database, Drizzle ORM, pnpm Workspaces.
+\sectionheader{Featured Engineering Projects}
+\projectheader{Job Craft -- AI-Powered Job Application Platform}{React 19, TypeScript, Cloudflare Workers, D1, Zod, OpenRouter}
+Job-application assistant that tailors resumes to job descriptions, with source-grounding checks, queue processing, retries and D1 persistence. \\[2pt]
+\projectheader{Letterwise -- Multi-Script Language Learning Platform}{Angular 21, NestJS 11, Nx, Supabase (PostgreSQL), RxJS, Zod}
+Nx monorepo with guest-to-account progress synchronisation and shared validation across the frontend and API. \\[2pt]
+\projectheader{OT-Assistant -- Occupational Therapy Planning Workspace}{Angular 21, PrimeNG 21, Express.js 5 on Workers, D1, Clerk, OpenRouter}
+Authenticated workspace for client records, therapy plans and progress tracking, with D1-backed role-based access controls. \\[2pt]
+\projectheader{Task Management API \& Integration Test Suite}{ASP.NET Core, C\#, EF Core, PostgreSQL, MediatR, xUnit}
+REST API with MediatR-based CQRS, filtered pagination and an xUnit integration test suite.
 
-% Education
+\sectionheader{Research \& Applied Science Experience}
+\jobheader{Graduate Research Engineer}{2020 -- 2022}{Isfahan University of Technology, in collaboration with Danfoss}{Isfahan, Iran}
+\begin{tightitems}
+    \item Built a Python pipeline using Sparse Identification of Nonlinear Dynamics (SINDy) to identify governing equations from experimental sensor time-series data.
+    \item Formulated and tuned Model Predictive Control (MPC) and adaptive control algorithms in MATLAB/Simulink, validated on hardware-in-the-loop testbeds with Danfoss engineers.
+\end{tightitems}
+
 \sectionheader{Education}
-\textbf{M.Sc. Mechanical Engineering (Mechatronics)} \hfill \textbf{2019 -- 2022} \\
-Isfahan University of Technology \hfill \textit{Thesis: AI-Based Predictive Control using Machine Learning for Dynamic Systems} \\[2pt]
-\textbf{B.Sc. Biosystems Mechanical Engineering} \hfill \textbf{2015 -- 2019} \\
+\textbf{M.Sc. in Mechanical Engineering (Mechatronics \& Dynamic Systems Control)} \hfill \textbf{2019 -- 2022} \\
+Isfahan University of Technology \hfill \textit{Thesis: AI-Based Predictive Control using Machine Learning for Dynamic Systems (with Danfoss)} \\[2pt]
+\textbf{B.Sc. in Biosystems Engineering} \hfill \textbf{2015 -- 2019} \\
 Razi University
 
 \end{document}
